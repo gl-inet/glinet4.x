@@ -168,17 +168,17 @@ SHA256sum: 0985d7c862eb4158d5f8f6530d6d3f88b8e63260003bfa3b949e51f5e6a58464
 Description:  Base filesystem for gl-inet
 
 Package: gl-sdk4-ipv6
-Version: git-2022.182.30983-c958c6a-1
-Depends: libc, libiwinfo-lua, kmod-ipt-nat6, gl-sdk4-lua-utils, kmod-ipv6
+Version: git-2022.187.05613-2c0e504-1
+Depends: libc, libiwinfo-lua, kmod-ipt-nat6, gl-sdk4-lua-utils
 Source: /home/glinet/work/glinet_package/gl-sdk4-ipv6
 SourceName: gl-sdk4-ipv6
 Section: base
-SourceDateEpoch: 1656664583
+SourceDateEpoch: 1657071213
 Architecture: arm_cortex-a7
-Installed-Size: 20907
-Filename: gl-sdk4-ipv6_git-2022.182.30983-c958c6a-1_arm_cortex-a7.ipk
-Size: 21667
-SHA256sum: 88175565da23753838291bc49a0754ef8cbab6b7c666853e19c3b1662c1df20b
+Installed-Size: 20906
+Filename: gl-sdk4-ipv6_git-2022.187.05613-2c0e504-1_arm_cortex-a7.ipk
+Size: 21666
+SHA256sum: 6a487c82ded3e97a77eb9a9c006b27bf8e92ed1010bb132b2e56cf8df73bd4ca
 Description:  glinet SDK4 ipv6 module
 
 Package: gl-sdk4-lan
