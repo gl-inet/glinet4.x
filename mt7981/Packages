@@ -1,12 +1,12 @@
 Package: gl-oui-rpc
-Version: git-2022.299.15376-f3bb07a-1
+Version: git-2022.328.11415-6b690d1-1
 Depends: libc, libuci-lua, jansson4, lsqlite3, libiwinfo-lua, libubus-lua, luabitop, openssl-util, lua-cjson, fcgi, nginx-ssl
 Section: oui
 Architecture: aarch64_cortex-a53
-Installed-Size: 53091
-Filename: gl-oui-rpc_git-2022.299.15376-f3bb07a-1_aarch64_cortex-a53.ipk
-Size: 53779
-SHA256sum: addcd8fa5165e82321f10cb8fc046c08467fe2081b6b0ef4df8708c4176a7ddf
+Installed-Size: 53905
+Filename: gl-oui-rpc_git-2022.328.11415-6b690d1-1_aarch64_cortex-a53.ipk
+Size: 54643
+SHA256sum: fa55ba5f6bed5f1456c5856072515b1653ef0e8e4052c4b93b4b48ec2c321189
 Description:  Oui rpc backend
 
 Package: gl-sdk4-acl
@@ -14,43 +14,43 @@ Version: git-2022.049.12123-277719a-1
 Depends: libc, libuci-lua
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 1669
+Installed-Size: 1667
 Filename: gl-sdk4-acl_git-2022.049.12123-277719a-1_aarch64_cortex-a53.ipk
 Size: 2389
-SHA256sum: 115204f86164f1bb853bb69fc95e99d794bc3bf3de8ebdc967934bff1703f7b7
+SHA256sum: ce5a896a4ea226e69adeb101f04c812cb588dd58811895ab134355daf010844f
 Description:  glinet SDK4 ACL module
 
 Package: gl-sdk4-adguardhome
-Version: git-2022.283.14087-34a34e0-1
+Version: git-2022.304.08992-29d2f5b-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 10566172
-Filename: gl-sdk4-adguardhome_git-2022.283.14087-34a34e0-1_aarch64_cortex-a53.ipk
-Size: 10540777
-SHA256sum: e5c6cfadedb3be36c875bbfe7e41260962513fba8efb9c09d57ea5f482fe7546
+Installed-Size: 10566181
+Filename: gl-sdk4-adguardhome_git-2022.304.08992-29d2f5b-1_aarch64_cortex-a53.ipk
+Size: 10540953
+SHA256sum: 5ba006bb40b808a25261ce27445dbc7971f15896747197e10e21880980d890c1
 Description:  Adguardhome API for Gl.inet
 
 Package: gl-sdk4-base-files
-Version: git-2022.308.27765-5619837-1
+Version: git-2022.328.32294-cdb3e40-1
 Depends: libc, kmod-gl-sdk4-hw-info
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 12121
-Filename: gl-sdk4-base-files_git-2022.308.27765-5619837-1_aarch64_cortex-a53.ipk
-Size: 12880
-SHA256sum: 46961192ae4f2b2e6565e8bc291e2b3aa7eef5909f4c412417d39c79eda1cc13
+Installed-Size: 12780
+Filename: gl-sdk4-base-files_git-2022.328.32294-cdb3e40-1_aarch64_cortex-a53.ipk
+Size: 13494
+SHA256sum: 3f03cced221b761c0c286ab6f2c8481f0c2badcac5caf3340943f6d8b9533b57
 Description:  Base filesystem for gl-inet
 
 Package: gl-sdk4-cable
-Version: git-2022.287.09542-64ad28b-1
+Version: git-2022.312.07051-b581ed5-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 9680
-Filename: gl-sdk4-cable_git-2022.287.09542-64ad28b-1_aarch64_cortex-a53.ipk
-Size: 10424
-SHA256sum: 44359c10c4095ff4da9513f3844703b8c191cb11f0c86671688fe7bce1b1478a
+Installed-Size: 9787
+Filename: gl-sdk4-cable_git-2022.312.07051-b581ed5-1_aarch64_cortex-a53.ipk
+Size: 10529
+SHA256sum: 49d4faae8668c8346f08d77b2db379f7432427c2b1a25c3de4040501a23f2bd4
 Description:  Oui Support for cable
 
 Package: gl-sdk4-carrier-monitor
@@ -58,44 +58,44 @@ Version: git-2022.282.15565-6e639f9-1
 Depends: libc, libnl-tiny1
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 2489
+Installed-Size: 2488
 Filename: gl-sdk4-carrier-monitor_git-2022.282.15565-6e639f9-1_aarch64_cortex-a53.ipk
-Size: 3282
-SHA256sum: cf120b9bc0959c2ad7565c5e605d4302ff14b3657a292930c4258bd4a97d7968
+Size: 3277
+SHA256sum: dbf747c17c1364cbca78a7ed88d7d19a15a609cb30ea435cbb24ca2288a83f49
 Description:  Monitor the carrier status of all network device. And call
  etc/hotplug.d/carrier/* use hotplug-call when the carrier has changed.
 
 Package: gl-sdk4-clients
-Version: git-2022.308.27895-1c1b5f6-1
+Version: git-2022.325.40899-3e7a829-1
 Depends: libc, lua, libuci-lua, libubox-lua, libubus-lua, kmod-gl-sdk4-tertf, iwinfo
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 6490
-Filename: gl-sdk4-clients_git-2022.308.27895-1c1b5f6-1_aarch64_cortex-a53.ipk
-Size: 7347
-SHA256sum: 5d158fbf659c74d08a459becd3078b8436cbfcde7cbc0f9949d0eebec9bec263
+Installed-Size: 6877
+Filename: gl-sdk4-clients_git-2022.325.40899-3e7a829-1_aarch64_cortex-a53.ipk
+Size: 7728
+SHA256sum: 7d230ec5f1c40204a92537527103e70963c996f0950529bd34e1a8ea5c8aedc1
 Description:  Oui Support for client mgmt, and client mgmt API
 
 Package: gl-sdk4-cloud-batch-manage
-Version: git-2022.237.06535-9fa7d95-1
-Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils
+Version: git-2022.302.13601-2b5e3cd-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, oui-librpc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 20714
-Filename: gl-sdk4-cloud-batch-manage_git-2022.237.06535-9fa7d95-1_aarch64_cortex-a53.ipk
-Size: 21446
-SHA256sum: 553b07443d1ce2af27df9560b483cc79d6cf4a4245932792f7647bd666280ba2
+Installed-Size: 20711
+Filename: gl-sdk4-cloud-batch-manage_git-2022.302.13601-2b5e3cd-1_aarch64_cortex-a53.ipk
+Size: 21450
+SHA256sum: 3fbd0e9b5282f2f1b65fdc3cea6467bc08b0d0f6f017c3e8612a048adc4ccb55
 Description:  gl sdk4 cloud batch manage
 
 Package: gl-sdk4-cloud
-Version: git-2022.286.22368-0c927db-1
+Version: git-2022.291.16062-db49974-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5756
-Filename: gl-sdk4-cloud_git-2022.286.22368-0c927db-1_aarch64_cortex-a53.ipk
-Size: 6463
-SHA256sum: e36a12d4d3a2ec0b8cf240048089aac20725d822a16b4b2452925b7b1b9e643c
+Installed-Size: 5790
+Filename: gl-sdk4-cloud_git-2022.291.16062-db49974-1_aarch64_cortex-a53.ipk
+Size: 6499
+SHA256sum: 4f0bd9718a8b8fc686a90329662d2e840e61a556aab6d336a77bb0fbf340671e
 Description:  gl sdk4 cloud
 
 Package: gl-sdk4-ddns
@@ -103,10 +103,10 @@ Version: git-2022.305.24845-399100d-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-log, gl-sdk4-utils, ddns-scripts
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 19210
+Installed-Size: 19100
 Filename: gl-sdk4-ddns_git-2022.305.24845-399100d-1_aarch64_cortex-a53.ipk
-Size: 20160
-SHA256sum: af8adf7ee8b4a048ebf027ffcf53b42fdbde5605a08c1fb5c635ac112c3960cf
+Size: 20090
+SHA256sum: c0a6a61364d69829babcef6b113cedd73c71449755ed5c864a2b8fad783d8a9c
 Description:  Oui Support for ddns
 
 Package: gl-sdk4-dns
@@ -125,21 +125,21 @@ Version: git-2022.283.14635-5ac27dc-1
 Depends: libc, arp-scan, kmod-gl-sdk4-edgerouter-status
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 7457
+Installed-Size: 7459
 Filename: gl-sdk4-edgerouter_git-2022.283.14635-5ac27dc-1_aarch64_cortex-a53.ipk
-Size: 8207
-SHA256sum: a274abe1b51736b7b1edff3b419172033e14e87a3bbc71f0185a506cc4747749
+Size: 8213
+SHA256sum: 3703a48b6cb503835ddbd8721dbf470be2f1acae042528a1ea695176978f34a3
 Description:  glinet edge router mode
 
 Package: gl-sdk4-firewall
-Version: git-2022.283.14720-3f5fc44-1
+Version: git-2022.321.34154-e1e55cd-1
 Depends: libc, firewall
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 2756
-Filename: gl-sdk4-firewall_git-2022.283.14720-3f5fc44-1_aarch64_cortex-a53.ipk
-Size: 3499
-SHA256sum: 9f806c96420bf14c13b938e89e97646bc88486e8597220f0197379827b15dd82
+Installed-Size: 2817
+Filename: gl-sdk4-firewall_git-2022.321.34154-e1e55cd-1_aarch64_cortex-a53.ipk
+Size: 3563
+SHA256sum: a8c4a4443e7129d3dba62bc22b759382a9f09b946f7ce31807d48713ab043f04
 Description:  Firewall API for Gl.inet
 
 Package: gl-sdk4-igmp
@@ -147,54 +147,54 @@ Version: git-2022.291.30622-3119005-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 1149
+Installed-Size: 1151
 Filename: gl-sdk4-igmp_git-2022.291.30622-3119005-1_aarch64_cortex-a53.ipk
-Size: 1875
-SHA256sum: 70a91c7412f003b655dafad289b81fa01c747779afcd317778780a625d3b4f90
+Size: 1881
+SHA256sum: 8a5bb6d266b70b873ba8920b2105b818209b2c72875d0cac662db44aab650897
 Description:  GL igmp set
 
 Package: gl-sdk4-init-portal
-Version: git-2022.300.35574-091ba59-1
+Version: git-2022.332.08211-408aebd-1
 Depends: libc, nginx-ssl
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 1856
-Filename: gl-sdk4-init-portal_git-2022.300.35574-091ba59-1_aarch64_cortex-a53.ipk
-Size: 2598
-SHA256sum: 73541649889681aaca97bc5b391a328ad5b75a317df82de96e97ba220f0ee1cf
+Installed-Size: 1869
+Filename: gl-sdk4-init-portal_git-2022.332.08211-408aebd-1_aarch64_cortex-a53.ipk
+Size: 2607
+SHA256sum: 915c2c38048da447c8701e9c3c502eef3ffc518b6accb01a9f336a21588c6bca
 Description:  Base filesystem for gl-inet
 
 Package: gl-sdk4-ipv6
-Version: git-2022.287.15125-b679dd6-1
+Version: git-2022.339.26852-82c6e38-1
 Depends: libc, libiwinfo-lua, kmod-ipt-nat6, gl-sdk4-lua-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22650
-Filename: gl-sdk4-ipv6_git-2022.287.15125-b679dd6-1_aarch64_cortex-a53.ipk
-Size: 23402
-SHA256sum: 2c663f9986fd4296645668dd0f8c76ead51d1c0cf803e0b43b34688ae88f3bd8
+Installed-Size: 22651
+Filename: gl-sdk4-ipv6_git-2022.339.26852-82c6e38-1_aarch64_cortex-a53.ipk
+Size: 23398
+SHA256sum: 8c8d1fe907b8f6c4b5d71539ddb6391bc81413538b798b954a0dacd28337acc3
 Description:  glinet SDK4 ipv6 module
 
 Package: gl-sdk4-lan
-Version: git-2022.284.23994-e864f82-1
+Version: git-2022.312.38550-6916c4a-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 3430
-Filename: gl-sdk4-lan_git-2022.284.23994-e864f82-1_aarch64_cortex-a53.ipk
-Size: 4151
-SHA256sum: 026563453edae1b3324a00e7d242e029f6e33f07caf18882542e2ad185a4c8bc
+Installed-Size: 3498
+Filename: gl-sdk4-lan_git-2022.312.38550-6916c4a-1_aarch64_cortex-a53.ipk
+Size: 4210
+SHA256sum: 096a0950968752a9ffd592b56fd1c8ddf79ab994e8434052f45d8bfe1d0d8963
 Description:  Lan API
 
 Package: gl-sdk4-led
-Version: git-2022.266.38732-1ed9a66-1
+Version: git-2022.328.37169-ded9067-1
 Depends: libc, gl-sdk4-base-files
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 2743
-Filename: gl-sdk4-led_git-2022.266.38732-1ed9a66-1_aarch64_cortex-a53.ipk
-Size: 3482
-SHA256sum: d75e46f63bc4031ef3cd9b21e95ee2a9733f35e888fb40c251d6c8f40b5e07b1
+Installed-Size: 2485
+Filename: gl-sdk4-led_git-2022.328.37169-ded9067-1_aarch64_cortex-a53.ipk
+Size: 3221
+SHA256sum: 3f9f564419f6c28b8a6863792a94de31ae2b3e0057e134fbf0c00fac56d092c5
 Description:  Oui Support for led
 
 Package: gl-sdk4-log
@@ -213,10 +213,10 @@ Version: git-2022.220.28968-2fc79fd-1
 Depends: libc, jansson4, kmod-mtdoops, gl-sdk4-uci
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 6198
+Installed-Size: 6199
 Filename: gl-sdk4-logread_git-2022.220.28968-2fc79fd-1_aarch64_cortex-a53.ipk
-Size: 6984
-SHA256sum: ec2ac0f67d58ab5981867326634d3dcc889ad2f156334105fcf63c71c841c3c0
+Size: 6992
+SHA256sum: d3778472479b85f15bea743a74eecd76869ceec92bfeed74dcf8d693d77c5945
 Description:  glinet SDK4 logread module
 
 Package: gl-sdk4-lua-utils
@@ -224,10 +224,10 @@ Version: git-2022.299.07514-334ab96-1
 Depends: libc, libuci-lua, gl-sdk4-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 4520
+Installed-Size: 4523
 Filename: gl-sdk4-lua-utils_git-2022.299.07514-334ab96-1_aarch64_cortex-a53.ipk
-Size: 5241
-SHA256sum: 615aa7ab0e82dec82d08e9d9e96fc9d1a188f878f098167a7855823ea89f96d6
+Size: 5245
+SHA256sum: b9a46eadb92093c8b62bd5d7c014f5e0e64fccf88548fb73b99adb0c3184ee61
 Description:  Hw Info API for Gl.inet
 
 Package: gl-sdk4-luci
@@ -246,32 +246,32 @@ Version: git-2022.286.11298-81636a0-1
 Depends: libc, libiwinfo-lua, libuci-lua, gl-sdk4-lua-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 1920
+Installed-Size: 1924
 Filename: gl-sdk4-macclone_git-2022.286.11298-81636a0-1_aarch64_cortex-a53.ipk
 Size: 2689
-SHA256sum: 679d8160cf866b6f63ae51d27e6ce82b30eed394e04644cd9a88db3116224fc7
+SHA256sum: 04632d2fcf9a066676375a7a76848324867cd8c47282945ca87d62e9298f1659
 Description:  glinet SDK4 macclone module
 
 Package: gl-sdk4-modem
-Version: git-2022.258.40182-fd257da-1
-Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, smstools3, comgt, chat, uqmi, usb-modeswitch, kmod-usb-acm, kmod-usb-net-huawei-cdc-ncm, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-wwan, kmod-usb-net-cdc-ether, kmod-usb-net-qmi-wwan, gl-sdk4-log
+Version: git-2022.364.26456-cbe2347-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, smstools3, comgt, comgt-ncm, chat, uqmi, usb-modeswitch, kmod-usb-acm, kmod-usb-net-huawei-cdc-ncm, kmod-usb-serial, kmod-usb-serial-option, kmod-usb-serial-wwan, kmod-usb-net-cdc-ether, kmod-usb-net-qmi-wwan, gl-sdk4-log
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 110816
-Filename: gl-sdk4-modem_git-2022.258.40182-fd257da-1_aarch64_cortex-a53.ipk
-Size: 111678
-SHA256sum: f6043d706edca061388c8690f364816fc51a7a3151ed8bdafd3ee2b705ec0335
+Installed-Size: 163444
+Filename: gl-sdk4-modem_git-2022.364.26456-cbe2347-1_aarch64_cortex-a53.ipk
+Size: 164159
+SHA256sum: 2d2477675f82322fabf93e6bcb1a61edc39dee21e4653813bc5455de768dc484
 Description:  glinet modem
 
 Package: gl-sdk4-mqtt
-Version: git-2022.271.39916-4d17027-1
+Version: git-2022.297.36512-0a9dbaa-1
 Depends: libc, libpthread, mqtt, libcurl4, libuci20130104, oui-librpc, gl-sdk4-uci, gl-sdk4-utils, gl-sdk4-log
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 44973
-Filename: gl-sdk4-mqtt_git-2022.271.39916-4d17027-1_aarch64_cortex-a53.ipk
-Size: 45609
-SHA256sum: a9d84e89a3feb86f9ee71115299da0c3ea1aa4c739e304d142f7b7e313c28165
+Installed-Size: 44896
+Filename: gl-sdk4-mqtt_git-2022.297.36512-0a9dbaa-1_aarch64_cortex-a53.ipk
+Size: 45570
+SHA256sum: fe0c7fe8db7a8d10edc6b1460d6d2af724e9e72d421e89b3259e5d12fcf6bacf
 Description:  SDK4 MQTT common libary
 
 Package: gl-sdk4-mwan3
@@ -279,10 +279,10 @@ Version: git-2022.281.36415-fb34846-1
 Depends: libc, libuci-lua, mwan3, httping
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 3895
+Installed-Size: 3898
 Filename: gl-sdk4-mwan3_git-2022.281.36415-fb34846-1_aarch64_cortex-a53.ipk
-Size: 4632
-SHA256sum: eac11ebfd99e2137dca22ac15bdec85e3f5c4efb05e60fb6d499063d8698f8d0
+Size: 4637
+SHA256sum: 5aa2d88e199a78ba284a9688777f27c0988a376c2b34bbe4c0de96297df925cd
 Description:  glinet SDK4 mwan3 module
 
 Package: gl-sdk4-nas-exfat
@@ -297,36 +297,36 @@ SHA256sum: 09f88cbe4537535a487fec9fc0b0fd9353b5e3ad0c8ac18e6aabd211cad110d6
 Description:  lib exfat
 
 Package: gl-sdk4-nas-utils
-Version: git-2022.291.35356-6811179
+Version: git-2022.304.13442-9d1741b
 Depends: libc, libpthread, libuci20130104, libsqlite3-0, blkid, libcurl4, kmod-fs-ext4, kmod-fs-ntfs, kmod-fs-vfat, kmod-fs-exfat, ntfs-3g, ntfs-3g-utils, dosfstools, e2fsprogs, gl-sdk4-utils, libopenssl1.1, gl-sdk4-nas-exfat
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 364106
-Filename: gl-sdk4-nas-utils_git-2022.291.35356-6811179_aarch64_cortex-a53.ipk
-Size: 364671
-SHA256sum: b18b2a260ddf3affe929a500fea0d692563f1fac5c4cd6282a42d62ec3c6c365
+Installed-Size: 363832
+Filename: gl-sdk4-nas-utils_git-2022.304.13442-9d1741b_aarch64_cortex-a53.ipk
+Size: 364460
+SHA256sum: fc0257349adcad1b2be27c78294d2f93425b40c6c866618cd61f937a4338e843
 Description:  GL NAS utils
 
 Package: gl-sdk4-nas-web
-Version: git-2022.282.40585-f83125d-1
+Version: git-2022.292.11923-42c603f-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, libuci20130104, libcurl4, libpthread, libsqlite3-0, blkid, kmod-fs-ext4, kmod-fs-ntfs, kmod-fs-vfat, kmod-fs-exfat, ntfs-3g, ntfs-3g-utils, dosfstools, e2fsprogs
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 50071
-Filename: gl-sdk4-nas-web_git-2022.282.40585-f83125d-1_aarch64_cortex-a53.ipk
-Size: 50903
-SHA256sum: 1612eb916bc89cb93f7e56f8afc8cfd844c12ef591fcdce7c3c23c01876887e0
+Installed-Size: 50080
+Filename: gl-sdk4-nas-web_git-2022.292.11923-42c603f-1_aarch64_cortex-a53.ipk
+Size: 50925
+SHA256sum: e3421f592f71d40feaa357768ade15b3cdf68fbcf6646d963ff19ff26d48b6c9
 Description:  gl sdk4 nas web config
 
 Package: gl-sdk4-netmode
-Version: git-2022.285.14639-d05abda-1
+Version: git-2022.312.12546-9f3af17-1
 Depends: libc, lua-cjson, relayd
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 3006
-Filename: gl-sdk4-netmode_git-2022.285.14639-d05abda-1_aarch64_cortex-a53.ipk
-Size: 3758
-SHA256sum: ec6dcad7ddfd0e14a195c94b06634b86b5a5930f23945ebcde0f3376246aaf7c
+Installed-Size: 3072
+Filename: gl-sdk4-netmode_git-2022.312.12546-9f3af17-1_aarch64_cortex-a53.ipk
+Size: 3821
+SHA256sum: d596485000f1d1813096694d48c6716662bd8e0c3dd5b3a44ad4229944aa9dc1
 Description:  Network mode API for Gl.inet
 
 Package: gl-sdk4-network-diag
@@ -334,21 +334,21 @@ Version: git-2022.141.22580-b209ce5-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 709
+Installed-Size: 708
 Filename: gl-sdk4-network-diag_git-2022.141.22580-b209ce5-1_aarch64_cortex-a53.ipk
-Size: 1445
-SHA256sum: e60b38ef10b4585d758e4403ce0a56024ab688e9b15136b40fa4d430ff7a7891
+Size: 1447
+SHA256sum: a0a6dedb984de3f91f0c6a1600cce3aeaa7f9dddc17e599295e11bb17077ed6c
 Description:  Rtty API for Gl.inet
 
 Package: gl-sdk4-network
-Version: git-2022.266.38646-87f7630-1
+Version: git-2022.321.12991-ebd99b5-1
 Depends: libc, libuci-lua, gl-sdk4-lua-utils
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 2843
-Filename: gl-sdk4-network_git-2022.266.38646-87f7630-1_aarch64_cortex-a53.ipk
-Size: 3584
-SHA256sum: d41ff451c66e67af9fbbb335ad3b120c7674a1be7431e3a4a3d250cb0ec10a2f
+Installed-Size: 2839
+Filename: gl-sdk4-network_git-2022.321.12991-ebd99b5-1_aarch64_cortex-a53.ipk
+Size: 3585
+SHA256sum: 221aa71be533419585d1f998d10e94c22b99a8341310cb75f4893c3ce89028bf
 Description:  glinet SDK4 network module
 
 Package: gl-sdk4-ovpn-client
@@ -356,32 +356,32 @@ Version: git-2022.306.40325-f083e54-1
 Depends: libc, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, jansson4, openvpn-openssl, openssl-util, resolveip, unzip
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 45918
+Installed-Size: 45928
 Filename: gl-sdk4-ovpn-client_git-2022.306.40325-f083e54-1_aarch64_cortex-a53.ipk
-Size: 46768
-SHA256sum: 459283c18e97a0db14262a47a38094dc56f107256de378138a3423ce019e5f6e
+Size: 46778
+SHA256sum: 5caa7b520ab20ce406bb7a6f4bcdd5c2cc9d37a0242c1da9362e52e6f22a1cf1
 Description:  Openvpn client endpoint api for gl-inet.
 
 Package: gl-sdk4-ovpn-server
-Version: git-2022.308.38246-72ece3e-1
+Version: git-2022.325.30157-6ca8854-1
 Depends: libc, gl-sdk4-utils, gl-sdk4-uci, jansson4, openvpn-openssl, openssl-util, resolveip, gl-sdk4-log
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 20223
-Filename: gl-sdk4-ovpn-server_git-2022.308.38246-72ece3e-1_aarch64_cortex-a53.ipk
-Size: 21029
-SHA256sum: 24eadfb8b1ecdfeec4045f832e2cde12bc48b4914c59e26fa984c954717d23d5
+Installed-Size: 20207
+Filename: gl-sdk4-ovpn-server_git-2022.325.30157-6ca8854-1_aarch64_cortex-a53.ipk
+Size: 21007
+SHA256sum: 728ca5a3a5929d8ad5d5a0d5570a1e107f74ee1454962b0b075a5372d5be88cd
 Description:  Openvpn server endpoint api for gl-inet.
 
 Package: gl-sdk4-plugins
-Version: git-2022.307.11842-be65d76-1
+Version: git-2023.012.12236-d5ac8f1-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-log, gl-sdk4-utils, libsqlite3-0
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 11918
-Filename: gl-sdk4-plugins_git-2022.307.11842-be65d76-1_aarch64_cortex-a53.ipk
-Size: 12661
-SHA256sum: e6281584d83267649d457aa2e45d929769b1a2f1a4c8b9bbc21baed47fbdb17b
+Installed-Size: 11914
+Filename: gl-sdk4-plugins_git-2023.012.12236-d5ac8f1-1_aarch64_cortex-a53.ipk
+Size: 12657
+SHA256sum: 2b471cda59d3c16222178d00b0152828b8e0b4068dca9f1529b3517e38e6b2f6
 Description:  Oui Support for plug-in installation
 
 Package: gl-sdk4-qos
@@ -389,76 +389,98 @@ Version: git-2022.217.08881-5997c6b-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, tc, kmod-sched-core, kmod-ifb
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5022
+Installed-Size: 5024
 Filename: gl-sdk4-qos_git-2022.217.08881-5997c6b-1_aarch64_cortex-a53.ipk
-Size: 5759
-SHA256sum: 290cd008cb0c7652069be10d6bda2dbe03f0ea84940ed3f2d7c5f4531d554f9a
+Size: 5762
+SHA256sum: 0f5239673aaaf281c2b70f404a1f12520812c605d253285c774c19fa19b4f9df
 Description:  Oui Support for qos, and qos api
+
+Package: gl-sdk4-repeater
+Version: git-2023.011.11947-76cc405-1
+Depends: libc, lua, libubox-lua, libuci-lua, libubus-lua, gl-oui-rpc, gl-sdk4-log, gl-sdk4-wifi, libiwinfo20210430, libiwinfo-lua, libnl-tiny1
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 15698
+Filename: gl-sdk4-repeater_git-2023.011.11947-76cc405-1_aarch64_cortex-a53.ipk
+Size: 16455
+SHA256sum: c74a5d30b1e325a111de99483afa7371a9ecd525ff349960d219c54ad2bfb3f2
+Description:  Repeater management for Gl.inet
 
 Package: gl-sdk4-rtty
 Version: git-2022.291.16127-c314604-1
 Depends: libc, rtty-openssl
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 1769
+Installed-Size: 1773
 Filename: gl-sdk4-rtty_git-2022.291.16127-c314604-1_aarch64_cortex-a53.ipk
-Size: 2488
-SHA256sum: 6e8f4c8bdfebb57ac6ae2634d666bd2008321a28cce0a181c2815951e64654cf
+Size: 2495
+SHA256sum: 2fa2fc4bde343ee3e6445f603d79db1345a140278b4c623aa497269e314b0876
 Description:  Rtty API for Gl.inet
 
 Package: gl-sdk4-s2s
-Version: git-2022.140.26857-2c82cd4-1
+Version: git-2022.305.27792-cd70677-1
 Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, wireguard-tools
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 19102
-Filename: gl-sdk4-s2s_git-2022.140.26857-2c82cd4-1_aarch64_cortex-a53.ipk
-Size: 19826
-SHA256sum: f0417c1fe146a23f8df2b6f0f220da4dfc26601dbcda4a55e9529de82e3fdd23
+Installed-Size: 18794
+Filename: gl-sdk4-s2s_git-2022.305.27792-cd70677-1_aarch64_cortex-a53.ipk
+Size: 19503
+SHA256sum: fbf009730c715a421adaa98e1067f4456e78264e58d5e9aa8ec0e7b5a9258735
 Description:  Oui Support for s2s
 
-Package: gl-sdk4-system
-Version: git-2022.299.07215-18008cc-1
-Depends: libc, libiwinfo-lua, libuci-lua, mwan3, gl-sdk4-lua-utils
-Section: base
-Architecture: aarch64_cortex-a53
-Installed-Size: 14291
-Filename: gl-sdk4-system_git-2022.299.07215-18008cc-1_aarch64_cortex-a53.ipk
-Size: 15031
-SHA256sum: 139c1a8b7765cd56d162b908b45d802ef485f76f96b8ed344b3275e8268cafad
-Description:  glinet SDK4 system module
-
-Package: gl-sdk4-tethering
-Version: git-2022.194.15720-1c5c9a9-1
-Depends: libc, kmod-usb-net-ipheth, usbmuxd, kmod-usb-net-rndis
-Section: base
-Architecture: aarch64_cortex-a53
-Installed-Size: 2476
-Filename: gl-sdk4-tethering_git-2022.194.15720-1c5c9a9-1_aarch64_cortex-a53.ipk
-Size: 3221
-SHA256sum: ce8cb62f73368843a8c5eeca5a55c8f8400cd091a2422f13f3c9b06519838cf2
-Description:  Oui Support for tethering
-
-Package: gl-sdk4-timer
-Version: git-2022.283.25840-c6253de-1
+Package: gl-sdk4-switch-button
+Version: git-2022.251.32722-7b1fecb-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5867
-Filename: gl-sdk4-timer_git-2022.283.25840-c6253de-1_aarch64_cortex-a53.ipk
-Size: 6580
-SHA256sum: 1c9abb2bd17ed0f5506238834c24f8f50c96604e6a06af28abcade5bd9e02616
+Installed-Size: 988
+Filename: gl-sdk4-switch-button_git-2022.251.32722-7b1fecb-1_aarch64_cortex-a53.ipk
+Size: 1726
+SHA256sum: 9d257c8b5455601b635a3e1f5f84f2bc5a2bba1dc0f9bce7c962b97b122ea64f
+Description:  Switch button API for Gl.inet
+
+Package: gl-sdk4-system
+Version: git-2022.304.08994-95cfdbf-1
+Depends: libc, libiwinfo-lua, libuci-lua, mwan3, gl-sdk4-lua-utils
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 14251
+Filename: gl-sdk4-system_git-2022.304.08994-95cfdbf-1_aarch64_cortex-a53.ipk
+Size: 14991
+SHA256sum: ac5181e85eeda88c4940416718dddefb6a0a30cb62033a74e584ae601570c0a2
+Description:  glinet SDK4 system module
+
+Package: gl-sdk4-tethering
+Version: git-2022.291.37142-77ee8cc-1
+Depends: libc, kmod-usb-net-ipheth, usbmuxd, kmod-usb-net-rndis
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 2594
+Filename: gl-sdk4-tethering_git-2022.291.37142-77ee8cc-1_aarch64_cortex-a53.ipk
+Size: 3349
+SHA256sum: 8c87c986bbb60f4547fc3c21233ed35f19c5cf3baeb054eca5558d1e4e1677ff
+Description:  Oui Support for tethering
+
+Package: gl-sdk4-timer
+Version: git-2022.292.31223-94096c3-1
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 5902
+Filename: gl-sdk4-timer_git-2022.292.31223-94096c3-1_aarch64_cortex-a53.ipk
+Size: 6610
+SHA256sum: a9e883fe5e98186e8ca62b35fede89ba4d493130e2c4c00155411fc63ba471f8
 Description:  Oui Support for timer
 
 Package: gl-sdk4-tor
-Version: git-2022.269.28456-cc40567-1
+Version: git-2022.312.38722-0a9050f-1
 Depends: libc, tor, tor-geoip, libuci-lua
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 3257
-Filename: gl-sdk4-tor_git-2022.269.28456-cc40567-1_aarch64_cortex-a53.ipk
-Size: 3992
-SHA256sum: 8e8df969c64feb4edb02b9f31f989e1832c4d091d779da5b11df1d83cc4fabbd
+Installed-Size: 3424
+Filename: gl-sdk4-tor_git-2022.312.38722-0a9050f-1_aarch64_cortex-a53.ipk
+Size: 4157
+SHA256sum: 6cb0c7d87474d0d899a6f659f52264df8af4e0053681c120701253bc3e0f60d3
 Description:  TOR Info API for Gl.inet
 
 Package: gl-sdk4-uci
@@ -477,10 +499,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-adguardhome
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 23773
+Installed-Size: 23774
 Filename: gl-sdk4-ui-adguardhome_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 24492
-SHA256sum: 7613a9fa9528b41e2fa7c58328a2014b30164b862cfc8678b8a5042dd524b819
+Size: 24493
+SHA256sum: 80e33366cab83186c059ba91dfb6903ca34e1e37184106023aa7f3bf580cbd21
 Description:  gl-sdk4-ui-adguardhome
 
 Package: gl-sdk4-ui-adminpw
@@ -488,10 +510,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 16874
+Installed-Size: 16875
 Filename: gl-sdk4-ui-adminpw_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 17573
-SHA256sum: 440a9f94f94dd3ca8d00ac941ef43aa9a070907dd77ae8432bebeda702605376
+Size: 17568
+SHA256sum: f2366cdf8e76f4d2f3c636a0aeec0f82bf99cb2e68d939b300f792abc5b4f9b9
 Description:  gl-sdk4-ui-adminpw
 
 Package: gl-sdk4-ui-advanced
@@ -499,32 +521,43 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5443
+Installed-Size: 5445
 Filename: gl-sdk4-ui-advanced_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 6157
-SHA256sum: 308d8c3873c27bfb5ff2be36ab596d082626eebceedb67fb570e9ef066ff13f3
+Size: 6160
+SHA256sum: 104b94abee19a212cb02a4512f3b18aa83e31136035b8ef84323498baed9c28f
 Description:  gl-sdk4-ui-advanced
 
 Package: gl-sdk4-ui-bridge
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.332.11873-7dc1efd-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-netmode
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 24232
-Filename: gl-sdk4-ui-bridge_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 24963
-SHA256sum: ca15c00952e3bb70fa41f0f1126d17253b1d3e55d328becce162c24be0eee30b
+Installed-Size: 24274
+Filename: gl-sdk4-ui-bridge_git-2022.332.11873-7dc1efd-1_aarch64_cortex-a53.ipk
+Size: 25007
+SHA256sum: 9bc19e3dfe22b542bf9a76bd1ad9459dfab290d791ea4bbddee8f7d5847715c7
 Description:  gl-sdk4-ui-bridge
 
-Package: gl-sdk4-ui-clients
+Package: gl-sdk4-ui-btnsettings
 Version: git-2022.308.32327-163d173-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-switch-button
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 20427
+Filename: gl-sdk4-ui-btnsettings_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
+Size: 21186
+SHA256sum: 22da8c6edb7b6622b283c11c775966e4113dde0b658b6487256aecfd2851e993
+Description:  gl-sdk4-ui-btnsettings
+
+Package: gl-sdk4-ui-clients
+Version: git-2022.318.30438-19cf53a-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-clients
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 33454
-Filename: gl-sdk4-ui-clients_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 34313
-SHA256sum: 9ba93de0fc94898ab2704dd334188b980f0cd80c74513e01002df0b5fa5da9aa
+Installed-Size: 33401
+Filename: gl-sdk4-ui-clients_git-2022.318.30438-19cf53a-1_aarch64_cortex-a53.ipk
+Size: 34264
+SHA256sum: e4e0915bf0f42b0648762372f91b95130f3dbb511af39c5b75bb2b418ea29e88
 Description:  gl-sdk4-ui-clients
 
 Package: gl-sdk4-ui-cloud
@@ -532,43 +565,43 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-cloud
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 24740
+Installed-Size: 24745
 Filename: gl-sdk4-ui-cloud_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 25479
-SHA256sum: 9701d9f9e0d8bb7eca31673ab9d6120f4a28880ef3709577127e216306932ee0
+Size: 25482
+SHA256sum: b65e783b3b25abadde6498cef9ae82db276d210b0076bf2c18b83bef1d812a83
 Description:  gl-sdk4-ui-cloud
 
 Package: gl-sdk4-ui-core
-Version: git-2022.307.24825-eb3fd40-1
+Version: git-2022.333.10698-397f49f-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 725709
-Filename: gl-sdk4-ui-core_git-2022.307.24825-eb3fd40-1_aarch64_cortex-a53.ipk
-Size: 726632
-SHA256sum: 7a463e5eb2da352c0135d19e78b2ee03ab615f77adb20a244b4f32f8ffa688d0
+Installed-Size: 727786
+Filename: gl-sdk4-ui-core_git-2022.333.10698-397f49f-1_aarch64_cortex-a53.ipk
+Size: 728689
+SHA256sum: 82d33da9f98fa13d16908325ee8ea659f83760b7509e96382521a9a2f263a682
 Description:  gl-sdk4-ui-core
 
 Package: gl-sdk4-ui-dnsview
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.328.06924-465a49b-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-dns
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 31485
-Filename: gl-sdk4-ui-dnsview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 32253
-SHA256sum: 781fe728eb29ed035baf5b12372f23bd19eaed8308d9e55e6e9aae5a78406b1e
+Installed-Size: 31572
+Filename: gl-sdk4-ui-dnsview_git-2022.328.06924-465a49b-1_aarch64_cortex-a53.ipk
+Size: 32333
+SHA256sum: 26589a3cc181ede62cd6478d222ab734b8c38923b7f9609f9830da0166519072
 Description:  gl-sdk4-ui-dnsview
 
 Package: gl-sdk4-ui-dynamicdns
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.336.38163-d75ba4a-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-ddns
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 20853
-Filename: gl-sdk4-ui-dynamicdns_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 21582
-SHA256sum: 7038384bbdd468a78f3cca0bc6cc588a56298afb96a12f6ed8de0f6f20a7291b
+Installed-Size: 20877
+Filename: gl-sdk4-ui-dynamicdns_git-2022.336.38163-d75ba4a-1_aarch64_cortex-a53.ipk
+Size: 21618
+SHA256sum: 8ea9aa39ba321fd4d8f980c0a9abbcccf0113c7d6c6638bc977fd5bb4df5a2e1
 Description:  gl-sdk4-ui-dynamicdns
 
 Package: gl-sdk4-ui-edgerouter
@@ -576,10 +609,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-edgerouter
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22811
+Installed-Size: 22813
 Filename: gl-sdk4-ui-edgerouter_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 23539
-SHA256sum: 5b525a86bd84dd3405cd5d9041bcaa62046570898b4266ca3a0b8e59dbdcf84d
+Size: 23544
+SHA256sum: 3214f493b97ce42778c9e45940a5287393013f8fe5dcb3af1031bc527909c81c
 Description:  gl-sdk4-ui-edgerouter
 
 Package: gl-sdk4-ui-firewallview
@@ -587,21 +620,21 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-firewall
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 28756
+Installed-Size: 28762
 Filename: gl-sdk4-ui-firewallview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 29517
-SHA256sum: 87c3691dc94033d51eaa77bac1fb097fe3d606d8a81731f9b813c25335c93eb5
+Size: 29520
+SHA256sum: a192735c82519e4ea3c01c45b2ab1da6a4070195556753523c7e387bca72faee
 Description:  gl-sdk4-ui-firewallview
 
 Package: gl-sdk4-ui-home
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.322.31763-3c680e7-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 30399
-Filename: gl-sdk4-ui-home_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 31162
-SHA256sum: a79483a927e58716c6c427379bce5de405f83737daa4af818fecb9f9555e0aac
+Installed-Size: 30375
+Filename: gl-sdk4-ui-home_git-2022.322.31763-3c680e7-1_aarch64_cortex-a53.ipk
+Size: 31123
+SHA256sum: 8f609dc83851d8f5af93fc7fc5ea8409e27eb1fe3ab466b0fafe30a872c99e2d
 Description:  gl-sdk4-ui-home
 
 Package: gl-sdk4-ui-hwnat
@@ -609,10 +642,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5794
+Installed-Size: 5796
 Filename: gl-sdk4-ui-hwnat_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 6489
-SHA256sum: d1d637b5ae479d6649397410ff94ab8414ce5a240af8fd7c9535a7875d9689a1
+Size: 6500
+SHA256sum: b2afe0f3f14df92a49fce5a885757314105df5da92590b396f46d73cdcd3f506
 Description:  gl-sdk4-ui-hwnat
 
 Package: gl-sdk4-ui-igmp
@@ -620,21 +653,21 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-igmp
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 16597
+Installed-Size: 16600
 Filename: gl-sdk4-ui-igmp_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
 Size: 17306
-SHA256sum: 7ae8f6250d4616b24cae015f751a2cdf1270ce5af248669b03652ddfeb546530
+SHA256sum: 0459fbeec42173d173bfbe20420383f70a20f2f6b6bd46c6509d1fd407db6966
 Description:  gl-sdk4-ui-igmp
 
 Package: gl-sdk4-ui-internet
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.332.11873-7dc1efd-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-cable
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 71413
-Filename: gl-sdk4-ui-internet_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 72299
-SHA256sum: 76d845c90e3038cb15623c164d5f1340111fcc2bb376d8ef8fb90144d6aeb98b
+Installed-Size: 71658
+Filename: gl-sdk4-ui-internet_git-2022.332.11873-7dc1efd-1_aarch64_cortex-a53.ipk
+Size: 72549
+SHA256sum: ed18f72b3e95aa247d665ff9869384f0fe668d04eb222f1d21d71ecf7287bb16
 Description:  gl-sdk4-ui-internet
 
 Package: gl-sdk4-ui-ipv6
@@ -642,32 +675,32 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-ipv6
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22157
+Installed-Size: 22159
 Filename: gl-sdk4-ui-ipv6_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 22911
-SHA256sum: 2188a18a7a2ec6e2f042c3ed80aa7d017ca77475108105f5755e0a97eb767e22
+Size: 22916
+SHA256sum: 7c86b5dce23fb4ecb4097e7e2c2dab24f77bd7625b2409c79ac47e09e1629bf3
 Description:  gl-sdk4-ui-ipv6
 
 Package: gl-sdk4-ui-lanip
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.333.32275-8c33b27-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-lan
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 31075
-Filename: gl-sdk4-ui-lanip_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 31825
-SHA256sum: 698ed637e5b404cdfdafd8d79ff2fee88c9be9200cb131f67830e8d6fded22db
+Installed-Size: 31179
+Filename: gl-sdk4-ui-lanip_git-2022.333.32275-8c33b27-1_aarch64_cortex-a53.ipk
+Size: 31937
+SHA256sum: d6c4fb8809a06e663f6f07b586760a38cd3a01fb0b6cf7ed33de2ba2023ffeb2
 Description:  gl-sdk4-ui-lanip
 
 Package: gl-sdk4-ui-login
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.322.32081-2e9e88d-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22843
-Filename: gl-sdk4-ui-login_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 23596
-SHA256sum: e8ff466a602b6e8ab5ace9a33c017fc3d8c2aac3421c388a4d1e0bed6e645ec6
+Installed-Size: 22814
+Filename: gl-sdk4-ui-login_git-2022.322.32081-2e9e88d-1_aarch64_cortex-a53.ipk
+Size: 23568
+SHA256sum: 4eb3fd97402801baee9bbd4b9e080e2cfa2c04cb9cd49f33ba0839203b96c391
 Description:  gl-sdk4-ui-login
 
 Package: gl-sdk4-ui-logview
@@ -675,10 +708,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-logread
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 5970
+Installed-Size: 5971
 Filename: gl-sdk4-ui-logview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 6690
-SHA256sum: 92a0f3dfb55878ddc851e4f8cbeb0083a2c685f57ba46a48077bdea0464a148b
+Size: 6687
+SHA256sum: 18f8f5debfd969754e5827f4f2f2c7efb467658ab6ef37849199e495c83d3ce9
 Description:  gl-sdk4-ui-logview
 
 Package: gl-sdk4-ui-macclone
@@ -686,43 +719,43 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-macclone
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 20212
+Installed-Size: 20216
 Filename: gl-sdk4-ui-macclone_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 20974
-SHA256sum: 74207779bc603b231f8e51beed2b30cb8f65e0ac666335efdf0a7981a30c226c
+Size: 20975
+SHA256sum: 9dce657a3a5ea010618a72f4b2194676288dbbb02dd2d9bbd07e9b634324ea32
 Description:  gl-sdk4-ui-macclone
 
 Package: gl-sdk4-ui-modemmanage
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.327.38385-67de7ff-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-modem
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 34810
-Filename: gl-sdk4-ui-modemmanage_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 35614
-SHA256sum: 070f24269c00e50d079fb1acba1a3f8e4c2578bfa0373b24348f2dd9e41b41de
+Installed-Size: 34883
+Filename: gl-sdk4-ui-modemmanage_git-2022.327.38385-67de7ff-1_aarch64_cortex-a53.ipk
+Size: 35704
+SHA256sum: c4f7acd21ae96ce50e66d96890829cffd8b5e1f2b7c74197a50e70d64c40fd5a
 Description:  gl-sdk4-ui-modemmanage
 
 Package: gl-sdk4-ui-multiwan
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.336.10746-503c3f4-1
 Depends: libc
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 32662
-Filename: gl-sdk4-ui-multiwan_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 33474
-SHA256sum: f00d6bc0b0ca86e3b49285616a833aa6a963180ec42058a65e8ce25aa0330573
+Installed-Size: 33424
+Filename: gl-sdk4-ui-multiwan_git-2022.336.10746-503c3f4-1_aarch64_cortex-a53.ipk
+Size: 34257
+SHA256sum: 2ae54829a6ba40e77fd35402760395e3d407a39bf3ccaf371daf19469dfe2be7
 Description:  gl-sdk4-ui-multiwan
 
 Package: gl-sdk4-ui-nasview
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.329.38661-2e312e3-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-nas-utils, gl-sdk4-nas-web, gl-sdk4-webdav
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 42310
-Filename: gl-sdk4-ui-nasview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 43193
-SHA256sum: 1c5dba8d919d7be0c21d3eee30cb818017892ff8fb9e9d6858074d5d9973eed6
+Installed-Size: 42748
+Filename: gl-sdk4-ui-nasview_git-2022.329.38661-2e312e3-1_aarch64_cortex-a53.ipk
+Size: 43609
+SHA256sum: 1473e81b02cc7c677bb1bf374e8f1658d68fdb840081edb7108307274380e188
 Description:  gl-sdk4-ui-nasview
 
 Package: gl-sdk4-ui-overview
@@ -730,43 +763,54 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-led, gl-sdk4-timer
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 26878
+Installed-Size: 26882
 Filename: gl-sdk4-ui-overview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 27616
-SHA256sum: 0474102a1da3a1cea0e5aeda14019644c3dcf68fc2de891e9e7a72cb8f271fac
+Size: 27617
+SHA256sum: aa0da7ac5b894c5863162bc3cd529d89af18c692bbd17f2d2391c28324a42a3e
 Description:  gl-sdk4-ui-overview
 
 Package: gl-sdk4-ui-ovpnclient
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.332.38122-243693b-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-ovpn-client
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 36177
-Filename: gl-sdk4-ui-ovpnclient_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 36994
-SHA256sum: b3b52564e6603ee25551c4c5b9dae03c22194ec85acb9977348e4ae9c4412592
+Installed-Size: 36163
+Filename: gl-sdk4-ui-ovpnclient_git-2022.332.38122-243693b-1_aarch64_cortex-a53.ipk
+Size: 36979
+SHA256sum: c31a84f492fba53e75f2d7bf4429f9ca6808137d0564a02dbc7646450e053993
 Description:  gl-sdk4-ui-ovpnclient
 
 Package: gl-sdk4-ui-ovpnserver
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.325.22622-e9a8320-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-ovpn-server
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 28186
-Filename: gl-sdk4-ui-ovpnserver_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 28949
-SHA256sum: f6a1a0b77c790e54364c75b671715da20e4d0a9835a25aad58df7d6a4dcda44f
+Installed-Size: 28196
+Filename: gl-sdk4-ui-ovpnserver_git-2022.325.22622-e9a8320-1_aarch64_cortex-a53.ipk
+Size: 28958
+SHA256sum: 6c2ebb7fa4803d5557ef3cde5fd673344cc3d156340b58c43f0a6f7b92a9f9b3
 Description:  gl-sdk4-ui-ovpnserver
 
+Package: gl-sdk4-ui-parentalcontrol
+Version: git-2022.353.09847-5f0674b-1
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 85794
+Filename: gl-sdk4-ui-parentalcontrol_git-2022.353.09847-5f0674b-1_aarch64_cortex-a53.ipk
+Size: 86593
+SHA256sum: cdaaef89dd78e6c83633958da1097b26ad34278cc57055c8fb6ae6672f197242
+Description:  gl-sdk4-ui-parentalcontrol
+
 Package: gl-sdk4-ui-plugins
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.347.08501-b4c0738-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-plugins
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 26738
-Filename: gl-sdk4-ui-plugins_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 27472
-SHA256sum: c45f2f512578c24c29b6b3542d887b7073e20531c06f900aae3075f6143cb118
+Installed-Size: 26873
+Filename: gl-sdk4-ui-plugins_git-2022.347.08501-b4c0738-1_aarch64_cortex-a53.ipk
+Size: 27602
+SHA256sum: 69741c28b9e54ff81fe2702b0d7952be0852354131b31c99df12f770258ec16e
 Description:  gl-sdk4-ui-plugins
 
 Package: gl-sdk4-ui-process
@@ -774,10 +818,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 18132
+Installed-Size: 18135
 Filename: gl-sdk4-ui-process_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 18890
-SHA256sum: ad32bd1105642ddb53d823ff9555e3349301bc64830e982ceed61aebd06b96ed
+Size: 18898
+SHA256sum: 6a7ab16f5c82db21fb83f537b3825de53271a470e3dc26ea5e4aba9479f0b957
 Description:  gl-sdk4-ui-process
 
 Package: gl-sdk4-ui-reset
@@ -785,32 +829,43 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 6987
+Installed-Size: 6991
 Filename: gl-sdk4-ui-reset_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 7731
-SHA256sum: f1de090c9da20b261a8cebfbd5c9739668a2927f09f9a2b62100335a30e7d172
+Size: 7741
+SHA256sum: 771474520b88b64f861078035013b83aef30f0258f074621363b63028a51b52f
 Description:  gl-sdk4-ui-reset
 
 Package: gl-sdk4-ui-sms
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.341.36586-5820ef4-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-modem
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 37026
-Filename: gl-sdk4-ui-sms_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 37839
-SHA256sum: c49ca8404d47d4835e4b2feb646b18b42b64f25d1dcf81d313bb4c7f634a6a62
+Installed-Size: 37254
+Filename: gl-sdk4-ui-sms_git-2022.341.36586-5820ef4-1_aarch64_cortex-a53.ipk
+Size: 38081
+SHA256sum: c4f30bf4bfe12eaa26f93cf8e25bc4ead6b7eadc873897a88b3091a71c90dddd
 Description:  gl-sdk4-ui-sms
+
+Package: gl-sdk4-ui-tailscaleview
+Version: git-2022.356.13171-b7cb881-1
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 17665
+Filename: gl-sdk4-ui-tailscaleview_git-2022.356.13171-b7cb881-1_aarch64_cortex-a53.ipk
+Size: 18434
+SHA256sum: ae2fecf8731652efd56878adc7ddd62fce295b2630cf6dbc1d45c2fd9a87940e
+Description:  gl-sdk4-ui-tailscaleview
 
 Package: gl-sdk4-ui-timedtask
 Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-timer
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 21827
+Installed-Size: 21831
 Filename: gl-sdk4-ui-timedtask_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 22547
-SHA256sum: a170bcc8b316b83f1d02f4a51fd8bd39787e515dfba046b698870072affe9392
+Size: 22555
+SHA256sum: 05590f9259e3c4a601c79dedb666834d8f0587aed602da7179d1a214f80c3f1d
 Description:  gl-sdk4-ui-timedtask
 
 Package: gl-sdk4-ui-timezone
@@ -818,10 +873,10 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22093
+Installed-Size: 22098
 Filename: gl-sdk4-ui-timezone_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 22854
-SHA256sum: 55299b2533a9ce31dd58a4d495fead18cf239cc435405a166631a9dd49d3d0b1
+Size: 22858
+SHA256sum: 1243bf9a5e1c090ab50a1e25cbfd75fa1656ddbd9e9834e7806305b7ba512982
 Description:  gl-sdk4-ui-timezone
 
 Package: gl-sdk4-ui-torview
@@ -829,32 +884,43 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-tor
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 43218
+Installed-Size: 43222
 Filename: gl-sdk4-ui-torview_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 44072
-SHA256sum: 2d993e7b6828445ddab142514d0ac1661f961a5e5e8c4d9d11cd80132a12d2b0
+Size: 44080
+SHA256sum: 65968a7680ec319174507a6c5ea5fbef048f779ae1c11f5d25efc8c842f9b670
 Description:  gl-sdk4-ui-torview
 
 Package: gl-sdk4-ui-upgrade
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.333.37494-1888ce5-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-upgrade
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 22738
-Filename: gl-sdk4-ui-upgrade_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 23452
-SHA256sum: ff40d6b7d2240c6110f64a2ffa676fe32cfeb775b1d61400b4393cc1304c99e3
+Installed-Size: 22731
+Filename: gl-sdk4-ui-upgrade_git-2022.333.37494-1888ce5-1_aarch64_cortex-a53.ipk
+Size: 23447
+SHA256sum: 6f7f6e32f0503068199a1488fd7961eecee0fa527aa7999abb8db886de96e512
 Description:  gl-sdk4-ui-upgrade
 
-Package: gl-sdk4-ui-vpndashboard
+Package: gl-sdk4-ui-vlan
 Version: git-2022.308.32327-163d173-1
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 3193
+Filename: gl-sdk4-ui-vlan_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
+Size: 3926
+SHA256sum: 8ce6a0aa44c24012f40e236b972d9a86dba0f4827ae12dcfbadd74c4fdc15d39
+Description:  gl-sdk4-ui-vlan
+
+Package: gl-sdk4-ui-vpndashboard
+Version: git-2022.334.11498-b227fda-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 78057
-Filename: gl-sdk4-ui-vpndashboard_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 78896
-SHA256sum: 35f88fc25150a027ed8e68bb7814e207e4be9904cb850884621d702736b8be0d
+Installed-Size: 79485
+Filename: gl-sdk4-ui-vpndashboard_git-2022.334.11498-b227fda-1_aarch64_cortex-a53.ipk
+Size: 80383
+SHA256sum: 024bffbafe76d989aa067b71ec6e72e7c831383b14e1db5d5d047c78d35c3164
 Description:  gl-sdk4-ui-vpndashboard
 
 Package: gl-sdk4-ui-welcome
@@ -862,21 +928,21 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 21019
+Installed-Size: 21022
 Filename: gl-sdk4-ui-welcome_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 21783
-SHA256sum: 9b968627542ec7f203e571197eba255e76665d31842f209f7b146ccd61e58662
+Size: 21784
+SHA256sum: 61664e9b6a9244ae0953e5cf33ea2bbb96c5003f8d6584d8a102d62b6e14ac5e
 Description:  gl-sdk4-ui-welcome
 
 Package: gl-sdk4-ui-wgclient
-Version: git-2022.308.32327-163d173-1
+Version: git-2022.336.04530-e06ddd6-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-wg-client
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 37796
-Filename: gl-sdk4-ui-wgclient_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
-Size: 38658
-SHA256sum: e4fb4cc7a0cc872c11efe95c86c4df09467bb46c6db205d662a46d60326cdadd
+Installed-Size: 37491
+Filename: gl-sdk4-ui-wgclient_git-2022.336.04530-e06ddd6-1_aarch64_cortex-a53.ipk
+Size: 38347
+SHA256sum: da1c1105127de2a70b611f4955d9a4615e8e680c9aa3f1659111d8bca6237cc6
 Description:  gl-sdk4-ui-wgclient
 
 Package: gl-sdk4-ui-wgserver
@@ -884,11 +950,33 @@ Version: git-2022.308.32327-163d173-1
 Depends: libc, gl-sdk4-ui-core, gl-sdk4-wg-server
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 35883
+Installed-Size: 35887
 Filename: gl-sdk4-ui-wgserver_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
 Size: 36705
-SHA256sum: 7957be7cda918319ab09ebbf5ff214344a36b4d81fff74c256a9ca5661b5adcd
+SHA256sum: d83d04f42c6c0fbde65b5fba2acd77304acbcf8a9576e7de5e88df972c410535
 Description:  gl-sdk4-ui-wgserver
+
+Package: gl-sdk4-ui-wireless
+Version: git-2022.308.32327-163d173-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-wifi
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 30137
+Filename: gl-sdk4-ui-wireless_git-2022.308.32327-163d173-1_aarch64_cortex-a53.ipk
+Size: 30888
+SHA256sum: ca1d107aa65528b4a472e61828ffc9ef1eb09deebd1d26841724c933415db80d
+Description:  gl-sdk4-ui-wireless
+
+Package: gl-sdk4-ui-zerotierview
+Version: git-2022.356.33511-39d9ff9-1
+Depends: libc
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 20308
+Filename: gl-sdk4-ui-zerotierview_git-2022.356.33511-39d9ff9-1_aarch64_cortex-a53.ipk
+Size: 21068
+SHA256sum: 156909b50bd809fdd9d2d62bb134e1a66d9eab6f85e1ef4f3fad49ecff04ef5c
+Description:  gl-sdk4-ui-zerotierview
 
 Package: gl-sdk4-upgrade
 Version: git-2022.248.35035-b9b4435-1
@@ -913,14 +1001,14 @@ SHA256sum: c2cc6fb62fc69e5245fd3aed6c1d5c0a5f2991963cf9a129ee27d88fa115abf8
 Description:  It encapsulates some functions that are used more frequently for Gl.Inet
 
 Package: gl-sdk4-vpn-policy
-Version: git-2022.307.11815-8e73324-1
+Version: git-2022.327.40962-719c549-1
 Depends: libc, libuci-lua, iptables-mod-extra, sudo
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 8726
-Filename: gl-sdk4-vpn-policy_git-2022.307.11815-8e73324-1_aarch64_cortex-a53.ipk
-Size: 9503
-SHA256sum: 7b5b3275e3d5a952b2fb18ca54b59cc176d882bda3ac53cb16a930acae42788a
+Installed-Size: 8728
+Filename: gl-sdk4-vpn-policy_git-2022.327.40962-719c549-1_aarch64_cortex-a53.ipk
+Size: 9510
+SHA256sum: f58c41f2fb28a61f7fe713e6d4a587e5fe5567aa8d12ed6ffd5b82eb36c7d44f
 Description:  glinet SDK4 VPN policy module
 
 Package: gl-sdk4-webdav
@@ -928,33 +1016,55 @@ Version: git-2022.266.38253-5de4201
 Depends: libc, libpthread, libopenssl1.1, libsqlite3-0
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 137032
+Installed-Size: 137209
 Filename: gl-sdk4-webdav_git-2022.266.38253-5de4201_aarch64_cortex-a53.ipk
-Size: 137752
-SHA256sum: 3a8276529d123d7aa17715c8ce919bc1f9bbae16f99d2ab0db6fa1e811e352bc
+Size: 137793
+SHA256sum: e642fbeeb05c3487c346cb42d167baf022599ecfe1295907840518b8964db401
 Description:  this is gl webdav package
 
 Package: gl-sdk4-wg-client
-Version: git-2022.305.24979-b3d7f73-1
+Version: git-2022.328.30133-c9c836d-1
 Depends: libc, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, jansson4, resolveip, curl, ca-bundle, ca-certificates, ip-full, unzip, wireguard-tools
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 34889
-Filename: gl-sdk4-wg-client_git-2022.305.24979-b3d7f73-1_aarch64_cortex-a53.ipk
-Size: 35803
-SHA256sum: 905436b52ed33bb81b5fdfcb79b69bcb55f2238ff296443c6f10863f6858ec18
+Installed-Size: 34903
+Filename: gl-sdk4-wg-client_git-2022.328.30133-c9c836d-1_aarch64_cortex-a53.ipk
+Size: 35806
+SHA256sum: c142da5c5250e7118930a10b74643ccd7cf6b0a491aba82d7d4cd8431a5eaa03
 Description:  Wireguard client api for gl-inet.
 
 Package: gl-sdk4-wg-server
-Version: git-2022.308.38261-c83c939-1
+Version: git-2022.311.12158-26e8f08-1
 Depends: libc, jansson4, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, resolveip, curl, ca-bundle, ca-certificates, ip-full, wireguard-tools
 Section: base
 Architecture: aarch64_cortex-a53
-Installed-Size: 21576
-Filename: gl-sdk4-wg-server_git-2022.308.38261-c83c939-1_aarch64_cortex-a53.ipk
-Size: 22411
-SHA256sum: 11ac262bb7168c59ea690957394f68a53d704db6c8d307af1dfc10e3cef94801
+Installed-Size: 21532
+Filename: gl-sdk4-wg-server_git-2022.311.12158-26e8f08-1_aarch64_cortex-a53.ipk
+Size: 22355
+SHA256sum: 07c96922ca2ad4985fc6928f1c724e0d4b0bfd1d72bece472bed5f238d5ca64c
 Description:  Wireguard server api for gl-inet.
+
+Package: gl-sdk4-wifi
+Version: git-2022.363.04621-e3652f4-1
+Depends: libc, libiwinfo-lua, wireless-regdb, lua-cjson, libnl-tiny1, libiwinfo20210430
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 17774
+Filename: gl-sdk4-wifi_git-2022.363.04621-e3652f4-1_aarch64_cortex-a53.ipk
+Size: 18536
+SHA256sum: c880bd0304ac2afab40aa4228b5e1746f5f53b9615c23c592cdfe3cb4a745d78
+Description:  WiFi API for Gl.inet
+
+Package: gl-sdk4-zerotier
+Version: git-2022.335.28371-7219865-1
+Depends: libc, zerotier, libuci-lua
+Section: base
+Architecture: aarch64_cortex-a53
+Installed-Size: 2355
+Filename: gl-sdk4-zerotier_git-2022.335.28371-7219865-1_aarch64_cortex-a53.ipk
+Size: 3095
+SHA256sum: ec4e4df0126230bf3897a95a43988634355223895ef47788b2025c03f8d9b109
+Description:  ZEROTIER Info API for Gl.inet
 
 Package: oui-librpc
 Version: git-2022.257.33294-1de273a-1
