@@ -1,0 +1,1349 @@
+Package: gl-ble-daemon
+Version: 2.0.0
+Depends: libc, libuci20130104, libubox20210516, libubus20210630, libblobmsg-json20210516, libpthread, gl-sdk4-uci, gl-sdk4-log, libglble, libjson-c5
+Source: feeds/glinet/gl-ble-daemon
+SourceName: gl-ble-daemon
+Section: base
+SourceDateEpoch: 1676513426
+Architecture: mips_24kc
+Installed-Size: 9654
+Filename: gl-ble-daemon_2.0.0_mips_24kc.ipk
+Size: 10422
+SHA256sum: 0e69800ae030749b240727cb646cdb8c985ddc8c3e05d79aa90ad3c47858552d
+Description:  GL inet ble daemon library
+
+Package: gl-ble-to-remote
+Version: 1.0.12
+Depends: libc, libubox20210516, libubus20210630, libblobmsg-json20210516, libpthread, gl-sdk4-uci, gl-sdk4-log, libmosquitto-ssl, libcurl4, libev, libjson-c5, jansson4
+Source: feeds/glinet/gl-ble-to-remote
+SourceName: gl-ble-to-remote
+Section: base
+SourceDateEpoch: 1676449363
+Architecture: mips_24kc
+Installed-Size: 27909
+Filename: gl-ble-to-remote_1.0.12_mips_24kc.ipk
+Size: 28591
+SHA256sum: cd1292849ccda454ff02cf6f6b5cd29db1cc90bd1c1bb818c7596a8ed56807d2
+Description:  GL inet remote management daemon
+
+Package: gl-iot-otbr-gw
+Version: git-2023.046.23977-2564be1-1
+Depends: libc, jansson4, libev, libubus20210630, libubox20210516, libblobmsg-json20210516, libcoap2, rrdtool1, mdnsresponder, luaexpat, uuid, gl-sdk4-log, gl-sdk4-uci
+Source: feeds/glinet/gl-iot-otbr-gw
+SourceName: gl-iot-otbr-gw
+Section: base
+SourceDateEpoch: 1676443177
+Architecture: mips_24kc
+Installed-Size: 311579
+Filename: gl-iot-otbr-gw_git-2023.046.23977-2564be1-1_mips_24kc.ipk
+Size: 312425
+SHA256sum: bc66982136a8cbc5995fbdce14b2ac93e65d24db372726dd62cf0b6f2c83fcd1
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: gl-iot-otbr-mgmt
+Version: git-2023.045.41738-3f333e4-1
+Depends: libc, libcurl4, jansson4, libev, libubus20210630, libubox20210516, libblobmsg-json20210516, libuci20130104, gl-sdk4-uci, gl-sdk4-log, lrzsz, screen
+Source: feeds/glinet/gl-iot-otbr-mgmt
+SourceName: gl-iot-otbr-mgmt
+Section: base
+SourceDateEpoch: 1676374538
+Architecture: mips_24kc
+Installed-Size: 2890240
+Filename: gl-iot-otbr-mgmt_git-2023.045.41738-3f333e4-1_mips_24kc.ipk
+Size: 2883371
+SHA256sum: 9228a68fae842cf06f1146d2f17ae3648949ce987c2e7a4965f7ae5dd306f695
+Description:  If you can't figure out what this program does, you're probably
+ brain-dead and need immediate medical attention.
+
+Package: gl-led-daemon
+Version: git-2023.044.26404-cd7e747-1
+Depends: libc, libubox20210516, libubus20210630, libblobmsg-json20210516, libpthread, gl-sdk4-uci, gl-sdk4-log
+Source: feeds/glinet/gl-led-daemon
+SourceName: gl-led-daemon
+Section: base
+SourceDateEpoch: 1676272804
+Architecture: mips_24kc
+Installed-Size: 5220
+Filename: gl-led-daemon_git-2023.044.26404-cd7e747-1_mips_24kc.ipk
+Size: 5994
+SHA256sum: 514d7fab1b04ff7787696ef6138321901215308e33e06e51b637709d3718c8c5
+Description:  GL inet LED daemon
+
+Package: gl-oui-rpc
+Version: git-2023.031.33979-244430c-1
+Depends: libc, libuci-lua, jansson4, lsqlite3, libiwinfo-lua, libubus-lua, luabitop, openssl-util, lua-cjson, fcgi, nginx-ssl
+Source: feeds/glinet/gl-oui/gl-oui-rpc
+SourceName: gl-oui-rpc
+Section: oui
+SourceDateEpoch: 1675157179
+Architecture: mips_24kc
+Installed-Size: 50824
+Filename: gl-oui-rpc_git-2023.031.33979-244430c-1_mips_24kc.ipk
+Size: 51716
+SHA256sum: 3f95218a901f23f96c113a21b654290d30dd271bffa39f1331567edc66baf8ec
+Description:  Oui rpc backend
+
+Package: gl-sdk4-acl
+Version: git-2022.049.12123-277719a-1
+Depends: libc, libuci-lua
+Source: feeds/glinet/gl-sdk4-acl
+SourceName: gl-sdk4-acl
+Section: base
+SourceDateEpoch: 1645154523
+Architecture: mips_24kc
+Installed-Size: 1667
+Filename: gl-sdk4-acl_git-2022.049.12123-277719a-1_mips_24kc.ipk
+Size: 2376
+SHA256sum: 4395ed42f9e81ed56a751c4ef4dba31abf5bc676e03d3c7709d944d2736d0b8c
+Description:  glinet SDK4 ACL module
+
+Package: gl-sdk4-base-files
+Version: git-2023.044.39234-9d43b1c-1
+Depends: libc, kmod-gl-sdk4-hw-info
+Source: feeds/glinet/gl-sdk4-base-files
+SourceName: gl-sdk4-base-files
+Section: base
+SourceDateEpoch: 1676285634
+Architecture: mips_24kc
+Installed-Size: 14644
+Filename: gl-sdk4-base-files_git-2023.044.39234-9d43b1c-1_mips_24kc.ipk
+Size: 15367
+SHA256sum: ae52d0c12c3d45e15778e43cd804630b1d4566f958babbe550b90aebb8ebb20a
+Description:  Base filesystem for gl-inet
+
+Package: gl-sdk4-cable
+Version: git-2022.312.07051-b581ed5-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils
+Source: feeds/glinet/gl-sdk4-cable
+SourceName: gl-sdk4-cable
+Section: base
+SourceDateEpoch: 1667872651
+Architecture: mips_24kc
+Installed-Size: 8147
+Filename: gl-sdk4-cable_git-2022.312.07051-b581ed5-1_mips_24kc.ipk
+Size: 8910
+SHA256sum: f62ac652bbbf16176b0e488540bb8f01e2cf6c6e309ddcbd8366f2f8f88ccd82
+Description:  Oui Support for cable
+
+Package: gl-sdk4-carrier-monitor
+Version: git-2022.282.15565-6e639f9-1
+Depends: libc, libnl-tiny1
+Source: feeds/glinet/gl-sdk4-carrier-monitor
+SourceName: gl-sdk4-carrier-monitor
+Section: base
+SourceDateEpoch: 1665289165
+Architecture: mips_24kc
+Installed-Size: 2461
+Filename: gl-sdk4-carrier-monitor_git-2022.282.15565-6e639f9-1_mips_24kc.ipk
+Size: 3244
+SHA256sum: fbf2bb598d17643fb7ccf805992cf50c52f7df19ed4614f807a95fd502c18ff0
+Description:  Monitor the carrier status of all network device. And call
+ etc/hotplug.d/carrier/* use hotplug-call when the carrier has changed.
+
+Package: gl-sdk4-clients
+Version: git-2022.329.29767-d307dab-1
+Depends: libc, lua, libuci-lua, libubox-lua, libubus-lua, kmod-gl-sdk4-tertf, iwinfo
+Source: feeds/glinet/gl-sdk4-clients
+SourceName: gl-sdk4-clients
+Section: base
+SourceDateEpoch: 1669364167
+Architecture: mips_24kc
+Installed-Size: 7158
+Filename: gl-sdk4-clients_git-2022.329.29767-d307dab-1_mips_24kc.ipk
+Size: 7976
+SHA256sum: 7a803fbdd392c320a59d571dc03026a9fed1e10881e9845b0ba31f5dd6ec4414
+Description:  Oui Support for client mgmt, and client mgmt API
+
+Package: gl-sdk4-cloud-batch-manage
+Version: git-2022.302.13601-2b5e3cd-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, oui-librpc
+Source: feeds/glinet/gl-sdk4-cloud-batch-manage
+SourceName: gl-sdk4-cloud-batch-manage
+Section: base
+SourceDateEpoch: 1667015201
+Architecture: mips_24kc
+Installed-Size: 15637
+Filename: gl-sdk4-cloud-batch-manage_git-2022.302.13601-2b5e3cd-1_mips_24kc.ipk
+Size: 16312
+SHA256sum: 599a465a3763c73f6c8be5b4088605f69a514b3361f7e9ad4d7fb1fd87c03aaa
+Description:  gl sdk4 cloud batch manage
+
+Package: gl-sdk4-cloud
+Version: git-2022.291.16062-db49974-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils
+Source: feeds/glinet/gl-sdk4-cloud
+SourceName: gl-sdk4-cloud
+Section: base
+SourceDateEpoch: 1666067262
+Architecture: mips_24kc
+Installed-Size: 4922
+Filename: gl-sdk4-cloud_git-2022.291.16062-db49974-1_mips_24kc.ipk
+Size: 5647
+SHA256sum: ad4af786075605917c085b2372c37cb672f8257a82dcc90c562fe31245c3c3f5
+Description:  gl sdk4 cloud
+
+Package: gl-sdk4-ddns
+Version: git-2022.305.24845-399100d-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-log, gl-sdk4-utils, ddns-scripts
+Source: feeds/glinet/gl-sdk4-ddns
+SourceName: gl-sdk4-ddns
+Section: base
+SourceDateEpoch: 1667285645
+Architecture: mips_24kc
+Installed-Size: 18666
+Filename: gl-sdk4-ddns_git-2022.305.24845-399100d-1_mips_24kc.ipk
+Size: 19645
+SHA256sum: a53bb588b2f882713bf3907f592c235e42e33ecb74b111d1fdca449e4c5fec57
+Description:  Oui Support for ddns
+
+Package: gl-sdk4-dns
+Version: git-2022.326.13046-37eb297-1
+Depends: libc, stubby, dnscrypt-proxy
+Source: feeds/glinet/gl-sdk4-dns
+SourceName: gl-sdk4-dns
+Section: base
+SourceDateEpoch: 1669088246
+Architecture: mips_24kc
+Installed-Size: 4838
+Filename: gl-sdk4-dns_git-2022.326.13046-37eb297-1_mips_24kc.ipk
+Size: 5564
+SHA256sum: fd876251c6561c3ca50cc2041b6ccea4130efbf7e6b166edb4e4051891fdda62
+Description:  GL iNet dns server api
+
+Package: gl-sdk4-firewall
+Version: git-2022.283.14720-3f5fc44-1
+Depends: libc, firewall
+Source: feeds/glinet/gl-sdk4-firewall
+SourceName: gl-sdk4-firewall
+Section: base
+SourceDateEpoch: 1665374720
+Architecture: mips_24kc
+Installed-Size: 2756
+Filename: gl-sdk4-firewall_git-2022.283.14720-3f5fc44-1_mips_24kc.ipk
+Size: 3489
+SHA256sum: c16399626dccec8107391b812ce3138356421cdda4c89ad835b281f61d774d4d
+Description:  Firewall API for Gl.inet
+
+Package: gl-sdk4-igmp
+Version: git-2022.291.30622-3119005-1
+Depends: libc
+Source: feeds/glinet/gl-sdk4-igmp
+SourceName: gl-sdk4-igmp
+Section: base
+SourceDateEpoch: 1666081822
+Architecture: mips_24kc
+Installed-Size: 1151
+Filename: gl-sdk4-igmp_git-2022.291.30622-3119005-1_mips_24kc.ipk
+Size: 1878
+SHA256sum: 34a1dcf94e9cbf38d6c481133814cc2074af30a1e5623cf24973aeaa08a38c93
+Description:  GL igmp set
+
+Package: gl-sdk4-init-portal
+Version: git-2022.332.08211-408aebd-1
+Depends: libc, nginx-ssl
+Source: feeds/glinet/gl-sdk4-init-portal
+SourceName: gl-sdk4-init-portal
+Section: base
+SourceDateEpoch: 1669601811
+Architecture: mips_24kc
+Installed-Size: 1869
+Filename: gl-sdk4-init-portal_git-2022.332.08211-408aebd-1_mips_24kc.ipk
+Size: 2598
+SHA256sum: f6c097a36201b2e3a3295012ca49120da9e75fbdc0ddba5ad58660a685517c53
+Description:  Base filesystem for gl-inet
+
+Package: gl-sdk4-ipv6
+Version: git-2023.045.36273-662fe6b-1
+Depends: libc, libiwinfo-lua, kmod-ipt-nat6, gl-sdk4-lua-utils
+Source: feeds/glinet/gl-sdk4-ipv6
+SourceName: gl-sdk4-ipv6
+Section: base
+SourceDateEpoch: 1676369073
+Architecture: mips_24kc
+Installed-Size: 20002
+Filename: gl-sdk4-ipv6_git-2023.045.36273-662fe6b-1_mips_24kc.ipk
+Size: 20730
+SHA256sum: 94404e8fd1df7dbcbd42fcca6dc1245b58a70905ab26fe0a13a3b782cf9a862c
+Description:  glinet SDK4 ipv6 module
+
+Package: gl-sdk4-lan
+Version: git-2022.312.38550-6916c4a-1
+Depends: libc
+Source: feeds/glinet/gl-sdk4-lan
+SourceName: gl-sdk4-lan
+Section: base
+SourceDateEpoch: 1667904150
+Architecture: mips_24kc
+Installed-Size: 3501
+Filename: gl-sdk4-lan_git-2022.312.38550-6916c4a-1_mips_24kc.ipk
+Size: 4208
+SHA256sum: 18ba37dc411b76f2d7187f6fd14ce9fd9a4006282d173294f17284410341bdc5
+Description:  Lan API
+
+Package: gl-sdk4-led
+Version: git-2022.328.37169-ded9067-1
+Depends: libc, gl-sdk4-base-files
+Source: feeds/glinet/gl-sdk4-led
+SourceName: gl-sdk4-led
+Section: base
+SourceDateEpoch: 1669285169
+Architecture: mips_24kc
+Installed-Size: 2485
+Filename: gl-sdk4-led_git-2022.328.37169-ded9067-1_mips_24kc.ipk
+Size: 3212
+SHA256sum: 16edf51a7acd03eaf5315470e6039187bb6405f42d2505a9f7c90426f3a3e159
+Description:  Oui Support for led
+
+Package: gl-sdk4-log
+Version: git-2022.284.08646-99450b0-1
+Depends: libc, liblua5.1.5
+Source: feeds/glinet/gl-sdk4-log
+SourceName: gl-sdk4-log
+Section: base
+SourceDateEpoch: 1665455046
+Architecture: mips_24kc
+Installed-Size: 3171
+Filename: gl-sdk4-log_git-2022.284.08646-99450b0-1_mips_24kc.ipk
+Size: 3873
+SHA256sum: 186bcb2a0b953fb455d4019d6066883061b07bb9a6b118aabf059af4e4eddc49
+Description:  Log lib for gl
+
+Package: gl-sdk4-logread
+Version: git-2022.220.28968-2fc79fd-1
+Depends: libc, jansson4, kmod-mtdoops, gl-sdk4-uci
+Source: feeds/glinet/gl-sdk4-logread
+SourceName: gl-sdk4-logread
+Section: base
+SourceDateEpoch: 1659945768
+Architecture: mips_24kc
+Installed-Size: 6049
+Filename: gl-sdk4-logread_git-2022.220.28968-2fc79fd-1_mips_24kc.ipk
+Size: 6775
+SHA256sum: 853da38f2e0d92287124aafdf3893879adfb7f1c5c44330f7aa686c4722b5a6d
+Description:  glinet SDK4 logread module
+
+Package: gl-sdk4-lua-utils
+Version: git-2022.315.28161-3fb6510-1
+Depends: libc, libuci-lua, gl-sdk4-utils
+Source: feeds/glinet/gl-sdk4-lua-utils
+SourceName: gl-sdk4-lua-utils
+Section: base
+SourceDateEpoch: 1668152961
+Architecture: mips_24kc
+Installed-Size: 4460
+Filename: gl-sdk4-lua-utils_git-2022.315.28161-3fb6510-1_mips_24kc.ipk
+Size: 5170
+SHA256sum: 51308f41953341d492e07177861ace889ebfb646c65def8320276e1729e27d1d
+Description:  Hw Info API for Gl.inet
+
+Package: gl-sdk4-luci
+Version: git-2022.236.25805-6db5332-1
+Depends: libc, gl-oui-rpc, luci-base, luci-mod-rpc, luci-mod-admin-full, luci-theme-bootstrap, luci-app-firewall, luci-app-opkg, luci-proto-ppp, libiwinfo-lua, luci-proto-ipv6, rpcd-mod-rrdns, luci-i18n-base-en
+Source: feeds/glinet/gl-sdk4-luci
+SourceName: gl-sdk4-luci
+Section: base
+SourceDateEpoch: 1661325005
+Architecture: mips_24kc
+Installed-Size: 104
+Filename: gl-sdk4-luci_git-2022.236.25805-6db5332-1_mips_24kc.ipk
+Size: 904
+SHA256sum: 2bade0a73fc8e94f449414e9eaa9ff7486d5a6f35b733b310390bcbe5a9c0f0d
+Description:  Luci for Gl.inet
+
+Package: gl-sdk4-macclone
+Version: git-2022.286.11298-81636a0-1
+Depends: libc, libiwinfo-lua, libuci-lua, gl-sdk4-lua-utils
+Source: feeds/glinet/gl-sdk4-macclone
+SourceName: gl-sdk4-macclone
+Section: base
+SourceDateEpoch: 1665630498
+Architecture: mips_24kc
+Installed-Size: 1924
+Filename: gl-sdk4-macclone_git-2022.286.11298-81636a0-1_mips_24kc.ipk
+Size: 2689
+SHA256sum: 19e8aff20345e2a76f37114c9d97c6e24873d75815f76e543ba056f2e1e573cb
+Description:  glinet SDK4 macclone module
+
+Package: gl-sdk4-mqtt
+Version: git-2022.297.36512-0a9dbaa-1
+Depends: libc, libpthread, mqtt, libcurl4, libuci20130104, oui-librpc, gl-sdk4-uci, gl-sdk4-utils, gl-sdk4-log
+Source: feeds/glinet/gl-sdk4-mqtt
+SourceName: gl-sdk4-mqtt
+Section: base
+SourceDateEpoch: 1666606112
+Architecture: mips_24kc
+Installed-Size: 37292
+Filename: gl-sdk4-mqtt_git-2022.297.36512-0a9dbaa-1_mips_24kc.ipk
+Size: 37983
+SHA256sum: 74447c76bb6e87e5cb882948aacbf1c89fdb18ef4ee30b87a602d4c59bbb8eca
+Description:  SDK4 MQTT common libary
+
+Package: gl-sdk4-mwan3
+Version: git-2023.029.24168-636c03d-1
+Depends: libc, libuci-lua, mwan3, httping
+Source: feeds/glinet/gl-sdk4-mwan3
+SourceName: gl-sdk4-mwan3
+Section: base
+SourceDateEpoch: 1674974568
+Architecture: mips_24kc
+Installed-Size: 3853
+Filename: gl-sdk4-mwan3_git-2023.029.24168-636c03d-1_mips_24kc.ipk
+Size: 4586
+SHA256sum: c44210e266313284aef0226921f732a6186d695b241da349aad23b5cdc5efce7
+Description:  glinet SDK4 mwan3 module
+
+Package: gl-sdk4-network-diag
+Version: git-2022.141.22580-b209ce5-1
+Depends: libc
+Source: feeds/glinet/gl-sdk4-network-diag
+SourceName: gl-sdk4-network-diag
+Section: base
+SourceDateEpoch: 1653113780
+Architecture: mips_24kc
+Installed-Size: 708
+Filename: gl-sdk4-network-diag_git-2022.141.22580-b209ce5-1_mips_24kc.ipk
+Size: 1432
+SHA256sum: 4e220054f7940af10a891219a269a47e42856aa07168e59d3696d5192e365f66
+Description:  Rtty API for Gl.inet
+
+Package: gl-sdk4-network
+Version: git-2022.321.12991-ebd99b5-1
+Depends: libc, libuci-lua, gl-sdk4-lua-utils
+Source: feeds/glinet/gl-sdk4-network
+SourceName: gl-sdk4-network
+Section: base
+SourceDateEpoch: 1668656191
+Architecture: mips_24kc
+Installed-Size: 2839
+Filename: gl-sdk4-network_git-2022.321.12991-ebd99b5-1_mips_24kc.ipk
+Size: 3580
+SHA256sum: 3402d4f03ee78d576850ef2a51c025032946e1ac6e5a4d6bdc0f2fa06c2874ef
+Description:  glinet SDK4 network module
+
+Package: gl-sdk4-ovpn-client
+Version: git-2023.031.15408-c35a3a1-1
+Depends: libc, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, jansson4, openvpn-openssl, openssl-util, resolveip, unzip
+Source: feeds/glinet/gl-sdk4-ovpn-client
+SourceName: gl-sdk4-ovpn-client
+Section: base
+SourceDateEpoch: 1675138608
+Architecture: mips_24kc
+Installed-Size: 37667
+Filename: gl-sdk4-ovpn-client_git-2023.031.15408-c35a3a1-1_mips_24kc.ipk
+Size: 38520
+SHA256sum: f267efd4eb24139d0d477a862abc97d43909314718755d1e35c42d97417c9042
+Description:  Openvpn client endpoint api for gl-inet.
+
+Package: gl-sdk4-ovpn-server
+Version: git-2023.003.38521-9589696-1
+Depends: libc, gl-sdk4-utils, gl-sdk4-uci, jansson4, openvpn-openssl, openssl-util, resolveip, gl-sdk4-log
+Source: feeds/glinet/gl-sdk4-ovpn-server
+SourceName: gl-sdk4-ovpn-server
+Section: base
+SourceDateEpoch: 1672742521
+Architecture: mips_24kc
+Installed-Size: 17660
+Filename: gl-sdk4-ovpn-server_git-2023.003.38521-9589696-1_mips_24kc.ipk
+Size: 18401
+SHA256sum: aa30dc32921855819aa2842be8c20a0021f15c7dfb5f2edc9734530475750935
+Description:  Openvpn server endpoint api for gl-inet.
+
+Package: gl-sdk4-plugins
+Version: git-2023.012.12236-d5ac8f1-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-log, gl-sdk4-utils, libsqlite3-0
+Source: feeds/glinet/gl-sdk4-plugins
+SourceName: gl-sdk4-plugins
+Section: base
+SourceDateEpoch: 1673493836
+Architecture: mips_24kc
+Installed-Size: 9946
+Filename: gl-sdk4-plugins_git-2023.012.12236-d5ac8f1-1_mips_24kc.ipk
+Size: 10734
+SHA256sum: 54832b95bcf7461b5b0b52a5ad974314fd677da47b437e23e9d6335b6151a2ca
+Description:  Oui Support for plug-in installation
+
+Package: gl-sdk4-qos
+Version: git-2022.217.08881-5997c6b-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, tc, kmod-sched-core, kmod-ifb
+Source: feeds/glinet/gl-sdk4-qos
+SourceName: gl-sdk4-qos
+Section: base
+SourceDateEpoch: 1659666481
+Architecture: mips_24kc
+Installed-Size: 5024
+Filename: gl-sdk4-qos_git-2022.217.08881-5997c6b-1_mips_24kc.ipk
+Size: 5755
+SHA256sum: 5a751b3d79525bd84de56a31cc1cf1a2472a317f6dddc250b351f56ae13558e6
+Description:  Oui Support for qos, and qos api
+
+Package: gl-sdk4-repeater
+Version: git-2023.028.14930-cb7d441-1
+Depends: libc, lua, libubox-lua, libuci-lua, libubus-lua, gl-oui-rpc, gl-sdk4-log, gl-sdk4-wifi, libiwinfo20210430, libiwinfo-lua, libnl-tiny1
+Source: feeds/glinet/gl-sdk4-repeater
+SourceName: gl-sdk4-repeater
+Section: base
+SourceDateEpoch: 1674878930
+Architecture: mips_24kc
+Installed-Size: 15791
+Filename: gl-sdk4-repeater_git-2023.028.14930-cb7d441-1_mips_24kc.ipk
+Size: 16536
+SHA256sum: edbdffd3df84e3155a828f92710ac78248ee7edec1c30c77a7a8034b6277a293
+Description:  Repeater management for Gl.inet
+
+Package: gl-sdk4-rtty
+Version: git-2022.291.16127-c314604-1
+Depends: libc, rtty-openssl
+Source: feeds/glinet/gl-sdk4-rtty
+SourceName: gl-sdk4-rtty
+Section: base
+SourceDateEpoch: 1666067327
+Architecture: mips_24kc
+Installed-Size: 1773
+Filename: gl-sdk4-rtty_git-2022.291.16127-c314604-1_mips_24kc.ipk
+Size: 2492
+SHA256sum: 0844df4820c82932afaef50d66ac69ea3c6f0dc3303e617754ccd71db01a207f
+Description:  Rtty API for Gl.inet
+
+Package: gl-sdk4-s2s
+Version: git-2022.305.27792-cd70677-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-utils, wireguard-tools
+Source: feeds/glinet/gl-sdk4-s2s
+SourceName: gl-sdk4-s2s
+Section: base
+SourceDateEpoch: 1667288592
+Architecture: mips_24kc
+Installed-Size: 15715
+Filename: gl-sdk4-s2s_git-2022.305.27792-cd70677-1_mips_24kc.ipk
+Size: 16446
+SHA256sum: 58d990f53fc14632d65768c362f0b9b60023ef35a0883594506f3360f955403e
+Description:  Oui Support for s2s
+
+Package: gl-sdk4-switch-button
+Version: git-2022.251.32722-7b1fecb-1
+Depends: libc
+Source: feeds/glinet/gl-sdk4-switch-button
+SourceName: gl-sdk4-switch-button
+Section: base
+SourceDateEpoch: 1662627922
+Architecture: mips_24kc
+Installed-Size: 988
+Filename: gl-sdk4-switch-button_git-2022.251.32722-7b1fecb-1_mips_24kc.ipk
+Size: 1724
+SHA256sum: 0be327cbdc88d8bf05e7afba57105dafb9e97d4e3c678a49a7159d07d21398a7
+Description:  Switch button API for Gl.inet
+
+Package: gl-sdk4-system
+Version: git-2023.045.27322-a4443ed-1
+Depends: libc, libiwinfo-lua, libuci-lua, mwan3, gl-sdk4-lua-utils
+Source: feeds/glinet/gl-sdk4-system
+SourceName: gl-sdk4-system
+Section: base
+SourceDateEpoch: 1676360122
+Architecture: mips_24kc
+Installed-Size: 10239
+Filename: gl-sdk4-system_git-2023.045.27322-a4443ed-1_mips_24kc.ipk
+Size: 10989
+SHA256sum: 27c7c24856579e85384bd316a344a4a1efc2c3826ba8527c67b0f895c61710b5
+Description:  glinet SDK4 system module
+
+Package: gl-sdk4-timer
+Version: git-2022.292.31223-94096c3-1
+Depends: libc
+Source: feeds/glinet/gl-sdk4-timer
+SourceName: gl-sdk4-timer
+Section: base
+SourceDateEpoch: 1666168823
+Architecture: mips_24kc
+Installed-Size: 5902
+Filename: gl-sdk4-timer_git-2022.292.31223-94096c3-1_mips_24kc.ipk
+Size: 6605
+SHA256sum: 448b8ca82059af225c3bfb5ea191d5eb338945e5c5d334c92b25409e6a952007
+Description:  Oui Support for timer
+
+Package: gl-sdk4-uci
+Version: git-2022.141.37615-4a3b6eb-1
+Depends: libc, libuci20130104
+Source: feeds/glinet/gl-sdk4-uci
+SourceName: gl-sdk4-uci
+Section: base
+SourceDateEpoch: 1653128815
+Architecture: mips_24kc
+Installed-Size: 3500
+Filename: gl-sdk4-uci_git-2022.141.37615-4a3b6eb-1_mips_24kc.ipk
+Size: 4221
+SHA256sum: 942aa3d9eaec97495f186ca01f21c74cad11242d49c1ebf2d82f689d146b6e76
+Description:  A warp around libuci, aim to use simple
+
+Package: gl-sdk4-ui-adminpw
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/adminpw
+SourceName: gl-sdk4-ui-adminpw
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 16873
+Filename: gl-sdk4-ui-adminpw_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 17569
+SHA256sum: fc97e817e14309701773a05c0a9b010483df9bf80c067eeddf4bd7819537c22a
+Description:  gl-sdk4-ui-adminpw
+
+Package: gl-sdk4-ui-advanced
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/advanced
+SourceName: gl-sdk4-ui-advanced
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 5446
+Filename: gl-sdk4-ui-advanced_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 6153
+SHA256sum: 2fbfb770eea4857cd218318b23fdb659487c870905edf6e1b7ebad5b8c674147
+Description:  gl-sdk4-ui-advanced
+
+Package: gl-sdk4-ui-backbonerouters
+Version: git-2022.258.36208-2243c4d-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/backbonerouters
+SourceName: gl-sdk4-ui-backbonerouters
+Section: base
+SourceDateEpoch: 1663236208
+Architecture: mips_24kc
+Installed-Size: 4453
+Filename: gl-sdk4-ui-backbonerouters_git-2022.258.36208-2243c4d-1_mips_24kc.ipk
+Size: 5173
+SHA256sum: 3aba3d1924e2b2d43604c98eb05011478ce6ccdc8931d6c98bcc3cf63e80513f
+Description:  gl-sdk4-ui-backbonerouters
+
+Package: gl-sdk4-ui-bluetoothdevices
+Version: git-2023.045.09788-502fe0b-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/bluetoothdevices
+SourceName: gl-sdk4-ui-bluetoothdevices
+Section: base
+SourceDateEpoch: 1676342588
+Architecture: mips_24kc
+Installed-Size: 20503
+Filename: gl-sdk4-ui-bluetoothdevices_git-2023.045.09788-502fe0b-1_mips_24kc.ipk
+Size: 21236
+SHA256sum: ac5ea085c68dffee72bacc54fe07cec6ec86e71ac584e6eae1bbe244585c966f
+Description:  gl-sdk4-ui-bluetoothdevices
+
+Package: gl-sdk4-ui-bluetoothremotemanage
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/bluetoothremotemanage
+SourceName: gl-sdk4-ui-bluetoothremotemanage
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 21464
+Filename: gl-sdk4-ui-bluetoothremotemanage_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 22182
+SHA256sum: 8a12b60cb534eafe41ab0dda5694948fee40b7ed7be8a18c7fe5d8a0328dec80
+Description:  gl-sdk4-ui-bluetoothremotemanage
+
+Package: gl-sdk4-ui-bluetoothreport
+Version: git-2023.039.38613-96474a2-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/bluetoothreport
+SourceName: gl-sdk4-ui-bluetoothreport
+Section: base
+SourceDateEpoch: 1675853013
+Architecture: mips_24kc
+Installed-Size: 25828
+Filename: gl-sdk4-ui-bluetoothreport_git-2023.039.38613-96474a2-1_mips_24kc.ipk
+Size: 26544
+SHA256sum: 893a16d5e2d958d77ec41c17baf1475da3e7b1144d670e71c73182e1c503fbe0
+Description:  gl-sdk4-ui-bluetoothreport
+
+Package: gl-sdk4-ui-bluetoothsettings
+Version: git-2023.031.39048-73886a0-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/bluetoothsettings
+SourceName: gl-sdk4-ui-bluetoothsettings
+Section: base
+SourceDateEpoch: 1675162248
+Architecture: mips_24kc
+Installed-Size: 15143
+Filename: gl-sdk4-ui-bluetoothsettings_git-2023.031.39048-73886a0-1_mips_24kc.ipk
+Size: 15855
+SHA256sum: 3a7e3b437b6f5962b434eeefdb4b9e871af64746cdcae78e18da6f568f5709f8
+Description:  gl-sdk4-ui-bluetoothsettings
+
+Package: gl-sdk4-ui-btnsettings
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-switch-button
+Source: feeds/glinet/gl-ui-iot/module/btnsettings
+SourceName: gl-sdk4-ui-btnsettings
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 20426
+Filename: gl-sdk4-ui-btnsettings_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 21183
+SHA256sum: 0b63cdfc0553d51504e1137363eea1e2d3aa8903aa93855863ce0422e9e66ef2
+Description:  gl-sdk4-ui-btnsettings
+
+Package: gl-sdk4-ui-clients
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-clients
+Source: feeds/glinet/gl-ui-iot/module/clients
+SourceName: gl-sdk4-ui-clients
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 33398
+Filename: gl-sdk4-ui-clients_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 34251
+SHA256sum: 85feb22f700107103d21d8ae51203efe77c6036dc92126c8db52620b36736be2
+Description:  gl-sdk4-ui-clients
+
+Package: gl-sdk4-ui-cloud
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-cloud
+Source: feeds/glinet/gl-ui-iot/module/cloud
+SourceName: gl-sdk4-ui-cloud
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 24743
+Filename: gl-sdk4-ui-cloud_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 25479
+SHA256sum: ba5d5edc02ea4b495c44224de8af7d2eeca794c55a4640a52f6120c2a0b2c4ce
+Description:  gl-sdk4-ui-cloud
+
+Package: gl-sdk4-ui-core
+Version: git-2023.046.37371-2a40fd9-1
+Depends: libc
+Source: feeds/glinet/gl-ui-iot/module/core
+SourceName: gl-sdk4-ui-core
+Section: base
+SourceDateEpoch: 1676456571
+Architecture: mips_24kc
+Installed-Size: 1228649
+Filename: gl-sdk4-ui-core_git-2023.046.37371-2a40fd9-1_mips_24kc.ipk
+Size: 1229661
+SHA256sum: 37e6de478711a45f7c0761dc121d03b4726e0a02bed5b9113e0d73dcf3a2911d
+Description:  gl-sdk4-ui-core
+
+Package: gl-sdk4-ui-devboardautomations
+Version: git-2023.045.10283-3000333-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/devboardautomations
+SourceName: gl-sdk4-ui-devboardautomations
+Section: base
+SourceDateEpoch: 1676343083
+Architecture: mips_24kc
+Installed-Size: 24473
+Filename: gl-sdk4-ui-devboardautomations_git-2023.045.10283-3000333-1_mips_24kc.ipk
+Size: 25190
+SHA256sum: 88bb3dfcb2c5dd7f11b72d82e8f8049b251a45f7e677deeb3d6818b93a9d45a3
+Description:  gl-sdk4-ui-devboardautomations
+
+Package: gl-sdk4-ui-devboarddevices
+Version: git-2023.046.22845-35aebb6-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/devboarddevices
+SourceName: gl-sdk4-ui-devboarddevices
+Section: base
+SourceDateEpoch: 1676442045
+Architecture: mips_24kc
+Installed-Size: 36231
+Filename: gl-sdk4-ui-devboarddevices_git-2023.046.22845-35aebb6-1_mips_24kc.ipk
+Size: 37068
+SHA256sum: b8a1568ffa7c12edcb0759fbd6eb2db7ef685fd25f0ad8001c847e47d36aa85a
+Description:  gl-sdk4-ui-devboarddevices
+
+Package: gl-sdk4-ui-dnsview
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-dns
+Source: feeds/glinet/gl-ui-iot/module/dnsview
+SourceName: gl-sdk4-ui-dnsview
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 31582
+Filename: gl-sdk4-ui-dnsview_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 32350
+SHA256sum: f05f41de29c99175e5c73416206cf165428fd46641b9f8ef4d432440d222fad1
+Description:  gl-sdk4-ui-dnsview
+
+Package: gl-sdk4-ui-dynamicdns
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-ddns
+Source: feeds/glinet/gl-ui-iot/module/dynamicdns
+SourceName: gl-sdk4-ui-dynamicdns
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 20879
+Filename: gl-sdk4-ui-dynamicdns_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 21614
+SHA256sum: bcfe7ac8fff5eea2991ca77ec9686557cd018d0fb4ae6b55457e76f7c567530b
+Description:  gl-sdk4-ui-dynamicdns
+
+Package: gl-sdk4-ui-firewallview
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-firewall
+Source: feeds/glinet/gl-ui-iot/module/firewallview
+SourceName: gl-sdk4-ui-firewallview
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 28765
+Filename: gl-sdk4-ui-firewallview_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 29520
+SHA256sum: 21bacd7bc0957127f5463b1bb72155224ce1b742f32b90558aab9067f9ae6ddf
+Description:  gl-sdk4-ui-firewallview
+
+Package: gl-sdk4-ui-home
+Version: git-2023.046.37371-2a40fd9-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/home
+SourceName: gl-sdk4-ui-home
+Section: base
+SourceDateEpoch: 1676456571
+Architecture: mips_24kc
+Installed-Size: 30609
+Filename: gl-sdk4-ui-home_git-2023.046.37371-2a40fd9-1_mips_24kc.ipk
+Size: 31367
+SHA256sum: 7956f2ab79c62a647961faa8ffdac1243ed608754a34e6e135a4897e54fd961f
+Description:  gl-sdk4-ui-home
+
+Package: gl-sdk4-ui-igmp
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-igmp
+Source: feeds/glinet/gl-ui-iot/module/igmp
+SourceName: gl-sdk4-ui-igmp
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 16600
+Filename: gl-sdk4-ui-igmp_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 17295
+SHA256sum: 05c82b1140a014b246422d7fa7fbbd1516ef64a6c75991e1b39da2ae504e08da
+Description:  gl-sdk4-ui-igmp
+
+Package: gl-sdk4-ui-internet
+Version: git-2023.045.27246-98b22cb-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-cable
+Source: feeds/glinet/gl-ui-iot/module/internet
+SourceName: gl-sdk4-ui-internet
+Section: base
+SourceDateEpoch: 1676360046
+Architecture: mips_24kc
+Installed-Size: 71447
+Filename: gl-sdk4-ui-internet_git-2023.045.27246-98b22cb-1_mips_24kc.ipk
+Size: 72322
+SHA256sum: 96da61f0bdbc8c3bd49cabee8118ea489952405c6df93f8fb3574103dd99c13a
+Description:  gl-sdk4-ui-internet
+
+Package: gl-sdk4-ui-ipv6
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-ipv6
+Source: feeds/glinet/gl-ui-iot/module/ipv6
+SourceName: gl-sdk4-ui-ipv6
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 22157
+Filename: gl-sdk4-ui-ipv6_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 22908
+SHA256sum: 7f77fa1453278e4ba0a4e8016c77c0cc29c2eaa6ee29ee80db01f1456689fbd2
+Description:  gl-sdk4-ui-ipv6
+
+Package: gl-sdk4-ui-lanip
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-lan
+Source: feeds/glinet/gl-ui-iot/module/lanip
+SourceName: gl-sdk4-ui-lanip
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 31179
+Filename: gl-sdk4-ui-lanip_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 31926
+SHA256sum: 4afe3455a837b1bb3d403c85342f379be0af116982d8c0a4022297198f385be6
+Description:  gl-sdk4-ui-lanip
+
+Package: gl-sdk4-ui-login
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/login
+SourceName: gl-sdk4-ui-login
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 22812
+Filename: gl-sdk4-ui-login_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 23560
+SHA256sum: 8cd6ad1e9ee298f40af6ba39671e11c059e3055b9eef14ef6d3f556f3eb6bef8
+Description:  gl-sdk4-ui-login
+
+Package: gl-sdk4-ui-logview
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-logread
+Source: feeds/glinet/gl-ui-iot/module/logview
+SourceName: gl-sdk4-ui-logview
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 5970
+Filename: gl-sdk4-ui-logview_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 6683
+SHA256sum: b4e2794441f6f65599ab55181a3c1b17f5b2baed5bb000e92f79b9b48471b44e
+Description:  gl-sdk4-ui-logview
+
+Package: gl-sdk4-ui-macclone
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-macclone
+Source: feeds/glinet/gl-ui-iot/module/macclone
+SourceName: gl-sdk4-ui-macclone
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 20213
+Filename: gl-sdk4-ui-macclone_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 20973
+SHA256sum: bbeddbed63abebfd29dec7c8b7af7657ad49204f7600fa9768dcdd7be5a474d5
+Description:  gl-sdk4-ui-macclone
+
+Package: gl-sdk4-ui-multiwan
+Version: git-2022.342.10767-c86b371-1
+Depends: libc
+Source: feeds/glinet/gl-ui-iot/module/multiwan
+SourceName: gl-sdk4-ui-multiwan
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 33421
+Filename: gl-sdk4-ui-multiwan_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 34238
+SHA256sum: e1b53568145d5ce7df4f79798f07143c7cda23a8600a1e7631ebb1057d35cd39
+Description:  gl-sdk4-ui-multiwan
+
+Package: gl-sdk4-ui-overview
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-led, gl-sdk4-timer
+Source: feeds/glinet/gl-ui-iot/module/overview
+SourceName: gl-sdk4-ui-overview
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 26903
+Filename: gl-sdk4-ui-overview_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 27636
+SHA256sum: 657df57b264d210125c7b2a1874b6e84a436dc5e569849bb32db9c5040e727ec
+Description:  gl-sdk4-ui-overview
+
+Package: gl-sdk4-ui-ovpnclient
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-ovpn-client
+Source: feeds/glinet/gl-ui-iot/module/ovpnclient
+SourceName: gl-sdk4-ui-ovpnclient
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 36170
+Filename: gl-sdk4-ui-ovpnclient_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 36983
+SHA256sum: b2272bd622f73a3f69ae8f25dbbb6b59b24207c2dfdeb9bc07867d03a75a2c18
+Description:  gl-sdk4-ui-ovpnclient
+
+Package: gl-sdk4-ui-ovpnserver
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-ovpn-server
+Source: feeds/glinet/gl-ui-iot/module/ovpnserver
+SourceName: gl-sdk4-ui-ovpnserver
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 28188
+Filename: gl-sdk4-ui-ovpnserver_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 28943
+SHA256sum: 119ca46c912c17521107cdf40b7cbcaaf6c24a7ad14e076537cd3b00cd726d53
+Description:  gl-sdk4-ui-ovpnserver
+
+Package: gl-sdk4-ui-plugins
+Version: git-2023.031.39048-73886a0-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-plugins
+Source: feeds/glinet/gl-ui-iot/module/plugins
+SourceName: gl-sdk4-ui-plugins
+Section: base
+SourceDateEpoch: 1675162248
+Architecture: mips_24kc
+Installed-Size: 26870
+Filename: gl-sdk4-ui-plugins_git-2023.031.39048-73886a0-1_mips_24kc.ipk
+Size: 27592
+SHA256sum: 0dae3332339840369760aa608e6895037d691061c383b4a0bf071811fd678001
+Description:  gl-sdk4-ui-plugins
+
+Package: gl-sdk4-ui-process
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/process
+SourceName: gl-sdk4-ui-process
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 18203
+Filename: gl-sdk4-ui-process_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 18961
+SHA256sum: 33e2fd70854114a15599aa29f9ba8d8a7615d63038888437def9fe474fd56f5e
+Description:  gl-sdk4-ui-process
+
+Package: gl-sdk4-ui-reset
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/reset
+SourceName: gl-sdk4-ui-reset
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 6990
+Filename: gl-sdk4-ui-reset_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 7740
+SHA256sum: 78f45f3f9c25fa8f10b3f0ec21f8b455ff1b762c9c48fdbaf79302bbf49c38ec
+Description:  gl-sdk4-ui-reset
+
+Package: gl-sdk4-ui-sensors
+Version: git-2022.322.36333-53126a9-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/sensors
+SourceName: gl-sdk4-ui-sensors
+Section: base
+SourceDateEpoch: 1668765933
+Architecture: mips_24kc
+Installed-Size: 28382
+Filename: gl-sdk4-ui-sensors_git-2022.322.36333-53126a9-1_mips_24kc.ipk
+Size: 29155
+SHA256sum: 29ea66cc95b8f7876d9a630c6c8a48de01e39747abd3d805932ebc2f869a0f6b
+Description:  gl-sdk4-ui-sensors
+
+Package: gl-sdk4-ui-threadadvanced
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/threadadvanced
+SourceName: gl-sdk4-ui-threadadvanced
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 17054
+Filename: gl-sdk4-ui-threadadvanced_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 17815
+SHA256sum: f731dd3a689827fdcd24555addaecab6ded83481e05fd36d380353896eefdad3
+Description:  gl-sdk4-ui-threadadvanced
+
+Package: gl-sdk4-ui-threaddevices
+Version: git-2023.046.37371-2a40fd9-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/threaddevices
+SourceName: gl-sdk4-ui-threaddevices
+Section: base
+SourceDateEpoch: 1676456571
+Architecture: mips_24kc
+Installed-Size: 25888
+Filename: gl-sdk4-ui-threaddevices_git-2023.046.37371-2a40fd9-1_mips_24kc.ipk
+Size: 26613
+SHA256sum: a5549e7813a945c17a98bdd890986479cffdbd36424e7b62ceea0b73eb1c7860
+Description:  gl-sdk4-ui-threaddevices
+
+Package: gl-sdk4-ui-threadnetwork
+Version: git-2023.045.30189-de5792c-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/threadnetwork
+SourceName: gl-sdk4-ui-threadnetwork
+Section: base
+SourceDateEpoch: 1676362989
+Architecture: mips_24kc
+Installed-Size: 28886
+Filename: gl-sdk4-ui-threadnetwork_git-2023.045.30189-de5792c-1_mips_24kc.ipk
+Size: 29663
+SHA256sum: fe061c8894e1ee03f91e1116f16f63857bbb8ff9cda97493371dfbefb631eff6
+Description:  gl-sdk4-ui-threadnetwork
+
+Package: gl-sdk4-ui-threadtopologies
+Version: git-2023.046.14660-970ddeb-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/threadtopologies
+SourceName: gl-sdk4-ui-threadtopologies
+Section: base
+SourceDateEpoch: 1676433860
+Architecture: mips_24kc
+Installed-Size: 186830
+Filename: gl-sdk4-ui-threadtopologies_git-2023.046.14660-970ddeb-1_mips_24kc.ipk
+Size: 187678
+SHA256sum: b18edff973601e746e4d24efe66a2fd991f4372b4672c450f2603ce49a2dc371
+Description:  gl-sdk4-ui-threadtopologies
+
+Package: gl-sdk4-ui-timedtask
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-timer
+Source: feeds/glinet/gl-ui-iot/module/timedtask
+SourceName: gl-sdk4-ui-timedtask
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 21837
+Filename: gl-sdk4-ui-timedtask_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 22555
+SHA256sum: 9759e3a2bbc0926f54f1bd01b2cf82de62c19f9633bbaf6d426a1c974a5f6a69
+Description:  gl-sdk4-ui-timedtask
+
+Package: gl-sdk4-ui-timezone
+Version: git-2023.035.40203-d834510-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/timezone
+SourceName: gl-sdk4-ui-timezone
+Section: base
+SourceDateEpoch: 1675509003
+Architecture: mips_24kc
+Installed-Size: 22021
+Filename: gl-sdk4-ui-timezone_git-2023.035.40203-d834510-1_mips_24kc.ipk
+Size: 22760
+SHA256sum: ec16a7e9d44b0ba6046411b8fa7116e5e8bad85d333cfef46e1aa91c2af24093
+Description:  gl-sdk4-ui-timezone
+
+Package: gl-sdk4-ui-upgrade
+Version: git-2023.031.39048-73886a0-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-upgrade
+Source: feeds/glinet/gl-ui-iot/module/upgrade
+SourceName: gl-sdk4-ui-upgrade
+Section: base
+SourceDateEpoch: 1675162248
+Architecture: mips_24kc
+Installed-Size: 22940
+Filename: gl-sdk4-ui-upgrade_git-2023.031.39048-73886a0-1_mips_24kc.ipk
+Size: 23643
+SHA256sum: 95d546e9ccd3a97164e2aae768c6ea1467dde517f91222ee6687656ebca3cef1
+Description:  gl-sdk4-ui-upgrade
+
+Package: gl-sdk4-ui-vpndashboard
+Version: git-2023.038.36616-156bb51-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/vpndashboard
+SourceName: gl-sdk4-ui-vpndashboard
+Section: base
+SourceDateEpoch: 1675764616
+Architecture: mips_24kc
+Installed-Size: 79483
+Filename: gl-sdk4-ui-vpndashboard_git-2023.038.36616-156bb51-1_mips_24kc.ipk
+Size: 80361
+SHA256sum: d67cda05d640b5413d31a894f17d9c6a09b47c796d87abc975bf6f50e5da51c2
+Description:  gl-sdk4-ui-vpndashboard
+
+Package: gl-sdk4-ui-welcome
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core
+Source: feeds/glinet/gl-ui-iot/module/welcome
+SourceName: gl-sdk4-ui-welcome
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 21023
+Filename: gl-sdk4-ui-welcome_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 21777
+SHA256sum: f281e5570a89093d956989ae68b9165fa05371ccf52d38bf17d1ecdc2e33d6bd
+Description:  gl-sdk4-ui-welcome
+
+Package: gl-sdk4-ui-wgclient
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-wg-client
+Source: feeds/glinet/gl-ui-iot/module/wgclient
+SourceName: gl-sdk4-ui-wgclient
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 37490
+Filename: gl-sdk4-ui-wgclient_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 38343
+SHA256sum: 5b65e4e526f3af28b09ad89ae91690671994bef0f039abfda70153a039038af9
+Description:  gl-sdk4-ui-wgclient
+
+Package: gl-sdk4-ui-wgserver
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-wg-server
+Source: feeds/glinet/gl-ui-iot/module/wgserver
+SourceName: gl-sdk4-ui-wgserver
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 35888
+Filename: gl-sdk4-ui-wgserver_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 36707
+SHA256sum: 42d66ec8d616e1f842929652e1371d823369f2bd48e158fb1f90eb3f6829c6e7
+Description:  gl-sdk4-ui-wgserver
+
+Package: gl-sdk4-ui-wireless
+Version: git-2022.342.10767-c86b371-1
+Depends: libc, gl-sdk4-ui-core, gl-sdk4-wifi
+Source: feeds/glinet/gl-ui-iot/module/wireless
+SourceName: gl-sdk4-ui-wireless
+Section: base
+SourceDateEpoch: 1670468367
+Architecture: mips_24kc
+Installed-Size: 30136
+Filename: gl-sdk4-ui-wireless_git-2022.342.10767-c86b371-1_mips_24kc.ipk
+Size: 30880
+SHA256sum: 73cc1c4015f4851e85cfd0cae54bc9faddaed0e6ea6eca5cdaadec3c6d4ce707
+Description:  gl-sdk4-ui-wireless
+
+Package: gl-sdk4-upgrade
+Version: git-2022.248.35035-b9b4435-1
+Depends: libc, jansson4, gl-sdk4-uci, gl-sdk4-log, gl-sdk4-utils
+Source: feeds/glinet/gl-sdk4-upgrade
+SourceName: gl-sdk4-upgrade
+Section: base
+SourceDateEpoch: 1662371035
+Architecture: mips_24kc
+Installed-Size: 10754
+Filename: gl-sdk4-upgrade_git-2022.248.35035-b9b4435-1_mips_24kc.ipk
+Size: 11500
+SHA256sum: 6525faea70af23d25ff4924e2136cd3eabfd21239cf857a91ff578d5eccedfa9
+Description:  Oui Support for upgrade
+
+Package: gl-sdk4-utils
+Version: git-2023.035.27968-f2bf6a2-1
+Depends: libc, gl-sdk4-uci, libubus20210630, libblobmsg-json20210516, libcurl4, ethtool, swconfig
+Source: feeds/glinet/gl-sdk4-utils
+SourceName: gl-sdk4-utils
+Section: base
+SourceDateEpoch: 1675496768
+Architecture: mips_24kc
+Installed-Size: 21774
+Filename: gl-sdk4-utils_git-2023.035.27968-f2bf6a2-1_mips_24kc.ipk
+Size: 22512
+SHA256sum: 8489ada082a3a6350072fbf689a5d3de6088be90c7dc30fee251363f2197bcda
+Description:  It encapsulates some functions that are used more frequently for Gl.Inet
+
+Package: gl-sdk4-vpn-policy
+Version: git-2022.355.13953-a8c92fc-1
+Depends: libc, libuci-lua, iptables-mod-extra, sudo
+Source: feeds/glinet/gl-sdk4-vpn-policy
+SourceName: gl-sdk4-vpn-policy
+Section: base
+SourceDateEpoch: 1671594753
+Architecture: mips_24kc
+Installed-Size: 9128
+Filename: gl-sdk4-vpn-policy_git-2022.355.13953-a8c92fc-1_mips_24kc.ipk
+Size: 9902
+SHA256sum: 69c3b036b840dc42bc2590214bfebf36b2a40bf8b73c02ae323de5f083bc7785
+Description:  glinet SDK4 VPN policy module
+
+Package: gl-sdk4-wg-client
+Version: git-2023.033.35117-17766ba-1
+Depends: libc, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, jansson4, resolveip, curl, ca-bundle, ca-certificates, ip-full, unzip, wireguard-tools
+Source: feeds/glinet/gl-sdk4-wg-client
+SourceName: gl-sdk4-wg-client
+Section: base
+SourceDateEpoch: 1675331117
+Architecture: mips_24kc
+Installed-Size: 27331
+Filename: gl-sdk4-wg-client_git-2023.033.35117-17766ba-1_mips_24kc.ipk
+Size: 28124
+SHA256sum: 1e538eed19095a1903c17542dfe05ebe7da4113d05ff54b53868d17418d4213d
+Description:  Wireguard client api for gl-inet.
+
+Package: gl-sdk4-wg-server
+Version: git-2023.009.30334-a447bb5-1
+Depends: libc, jansson4, gl-sdk4-utils, gl-sdk4-uci, gl-sdk4-log, resolveip, curl, ca-bundle, ca-certificates, ip-full, wireguard-tools
+Source: feeds/glinet/gl-sdk4-wg-server
+SourceName: gl-sdk4-wg-server
+Section: base
+SourceDateEpoch: 1673252734
+Architecture: mips_24kc
+Installed-Size: 17131
+Filename: gl-sdk4-wg-server_git-2023.009.30334-a447bb5-1_mips_24kc.ipk
+Size: 17918
+SHA256sum: 464d947841ab7accdc4ad4e586656bf8b983204e71eeffe86f46fc995588a572
+Description:  Wireguard server api for gl-inet.
+
+Package: gl-sdk4-wifi
+Version: git-2023.034.12587-e93c62e-1
+Depends: libc, libiwinfo-lua, wpad-openssl, wireless-regdb, lua-cjson, libnl-tiny1, libiwinfo20210430
+Source: feeds/glinet/gl-sdk4-wifi
+SourceName: gl-sdk4-wifi
+Section: base
+SourceDateEpoch: 1675394987
+Architecture: mips_24kc
+Installed-Size: 16251
+Filename: gl-sdk4-wifi_git-2023.034.12587-e93c62e-1_mips_24kc.ipk
+Size: 16988
+SHA256sum: cd7e547a06d6de6228c38ea4c9ae0ce6a6815b4dddaf3cc6fe0728b71cfa2f36
+Description:  WiFi API for Gl.inet
+
+Package: gl-sdk4-zerotier
+Version: git-2022.326.10286-1886827-1
+Depends: libc, zerotier, libuci-lua
+Source: package/feeds/glinet/gl-sdk4-zerotier
+SourceName: gl-sdk4-zerotier
+Section: base
+SourceDateEpoch: 1669085486
+Architecture: mips_24kc
+Installed-Size: 1635
+Filename: gl-sdk4-zerotier_git-2022.326.10286-1886827-1_mips_24kc.ipk
+Size: 2402
+SHA256sum: 96ae932678e29d0b729ce77d103801503d50a819566a35c8182b125a70a53711
+Description:  ZEROTIER Info API for Gl.inet
+
+Package: gl-silabs-dfu
+Version: 1.3.1
+Depends: libc
+Source: feeds/glinet/gl-silabs-dfu
+SourceName: gl-silabs-dfu
+Section: base
+SourceDateEpoch: 1672827082
+Architecture: mips_24kc
+Installed-Size: 9529
+Filename: gl-silabs-dfu_1.3.1_mips_24kc.ipk
+Size: 10237
+SHA256sum: 5782505e442a61c968fcd2ef128cce28dc4094e66c7a9e565daef9b030163ae7
+Description:  GL inet dfu silabs firmware
+
+Package: libglble
+Version: 2.0.1
+Depends: libc, libuci20130104, libpthread, gl-sdk4-uci
+Source: feeds/glinet/gl-ble-sdk
+SourceName: libglble
+Section: base
+SourceDateEpoch: 1676457003
+Architecture: mips_24kc
+Installed-Size: 757826
+Filename: libglble_2.0.1_mips_24kc.ipk
+Size: 737234
+SHA256sum: a44f332568720bd31ccae3f4c0591abdfe877ddfbdbe13806fa0a69428d13fa4
+Description:  GL inet BLE driver library
+
+Package: ot-br-posix
+Version: 2022-11-08-git-2023.047.33477-71d6a05
+Depends: libc, libstdcpp6, libjson-c5, libubus20210630, libblobmsg-json20210516, libreadline8, libuci20130104, mdnsresponder, libnetfilter-queue1, kmod-usb-serial-ch343, kmod-usb-serial, kmod-ipt-nat6, kmod-tun, tayga, iptables-mod-extra, ipset, totd, bind-dig
+Source: feeds/glinet/ot-br-posix
+SourceName: ot-br-posix
+License: BSD-3-Clause
+LicenseFiles: LICENSE
+Section: base
+SourceDateEpoch: 1676539077
+Architecture: mips_24kc
+Installed-Size: 530164
+Filename: ot-br-posix_2022-11-08-git-2023.047.33477-71d6a05_mips_24kc.ipk
+Size: 529079
+SHA256sum: c70718d902d27ed5b57c375ee48499810bb56559655d232e62a704718a701200
+Description:  A Thread border router for POSIX-based platforms.
+
+Package: oui-librpc
+Version: git-2022.257.33294-1de273a-1
+Depends: libc, jansson4, libsqlite3-0, gl-sdk4-log, gl-oui-rpc, libcurl4
+Source: feeds/glinet/gl-oui/oui-librpc
+SourceName: oui-librpc
+Section: oui
+SourceDateEpoch: 1663146894
+Architecture: mips_24kc
+Installed-Size: 3207
+Filename: oui-librpc_git-2022.257.33294-1de273a-1_mips_24kc.ipk
+Size: 3930
+SHA256sum: 3814594e4f21a346404419fb0215a5d4747e47ba4583e21305c165ec9d8bac5c
+Description:  C call lua for oui
+
