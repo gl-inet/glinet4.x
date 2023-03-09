@@ -1,0 +1,175 @@
+---
+description: Add the glinet dependencies
+
+packages:
+  - kmod-gl-sdk4-hw-info
+  - kmod-gl-sdk4-tertf
+  - dnsmasq-full
+  - mwan3
+  - iwinfo
+  - wireless-regdb
+  - httping
+  - kmod-inet-diag
+  - liblua5.1.5
+  - libcurl
+  - ethtool
+  - lua
+  - libubox-lua
+  - libuci-lua
+  - libubus-lua
+  - libiwinfo-lua
+  - lua-cjson
+  - libiwinfo-lua
+  - jansson
+  - lsqlite3
+  - luabitop
+  - openssl-util
+  - fcgi
+  - nginx-ssl
+  - ddns-scripts
+  - stubby
+  - dnscrypt-proxy
+  - kmod-ipt-nat6
+  - kmod-mtdoops
+  - mqtt
+  - openvpn-openssl
+  - resolveip
+  - unzip
+  - kmod-sched-core
+  - tc-tiny
+  - resolveip
+  - kmod-ifb
+  - rtty-openssl
+  - wireguard-tools
+  - iptables-mod-extra
+  - sudo
+  - curl
+  - ca-certificates
+  - ip-full
+  - luci-base
+  - luci-mod-rpc
+  - luci-mod-admin-full
+  - luci-theme-bootstrap
+  - luci-app-firewall
+  - luci-app-opkg
+  - luci-proto-ppp
+  - libiwinfo-lua
+  - luci-proto-ipv6
+  - rpcd-mod-rrdns
+  - wpad-openssl
+  - swconfig
+  - libatomic
+  - libstdcpp
+  - lua-eco
+  - lua-eco-file
+  - lua-eco-log
+  - lua-eco-socket
+  - lua-eco-sys
+  - lua-eco-ubus
+  - luaexpat
+  - luasocket
+  - uuid
+  - rrdtool1
+  - screen
+  - lrzsz
+  - luci-i18n-base-en
+  - libnetfilter-queue
+  - libcoap
+
+diffconfig: |
+  CONFIG_SIGNATURE_CHECK=n
+  CONFIG_PACKAGE_dnsmasq=n
+  CONFIG_PACKAGE_wpad-basic=n
+  CONFIG_PACKAGE_wpad=n
+  CONFIG_BUSYBOX_CUSTOM=y
+  CONFIG_BUSYBOX_CONFIG_FEATURE_FLOAT_SLEEP=y
+  CONFIG_NGINX_HTTP_CHARSET=n
+  CONFIG_NGINX_HTTP_GZIP=n
+  CONFIG_NGINX_HTTP_SSI=n
+  CONFIG_NGINX_HTTP_USERID=n
+  CONFIG_NGINX_HTTP_ACCESS=n
+  CONFIG_NGINX_HTTP_AUTH_BASIC=n
+  CONFIG_NGINX_HTTP_AUTOINDEX=n
+  CONFIG_NGINX_HTTP_GEO=n
+  CONFIG_NGINX_HTTP_MAP=n
+  CONFIG_NGINX_HTTP_SPLIT_CLIENTS=n
+  CONFIG_NGINX_HTTP_REFERER=n
+  CONFIG_NGINX_LUA=y
+  CONFIG_NGINX_HTTP_FASTCGI=y
+  CONFIG_NGINX_HTTP_REWRITE=y
+  CONFIG_NGINX_HTTP_PCRE=y
+  CONFIG_NGINX_HTTP_PROXY=y
+  CONFIG_NGINX_HTTP_SCGI=n
+  CONFIG_NGINX_HTTP_MEMCACHED=n
+  CONFIG_NGINX_HTTP_LIMIT_CONN=n
+  CONFIG_NGINX_HTTP_LIMIT_REQ=n
+  CONFIG_NGINX_HTTP_EMPTY_GIF=n
+  CONFIG_NGINX_HTTP_BROWSER=n
+  CONFIG_NGINX_HTTP_UPSTREAM_HASH=n
+  CONFIG_NGINX_HTTP_UPSTREAM_IP_HASH=n
+  CONFIG_NGINX_HTTP_UPSTREAM_LEAST_CONN=n
+  CONFIG_NGINX_HTTP_UPSTREAM_KEEPALIVE=n
+  CONFIG_NGINX_HTTP_CACHE=n
+  CONFIG_NGINX_NAXSI=n
+  CONFIG_NGINX_HEADERS_MORE=n
+  CONFIG_LIBCURL_MBEDTLS=n
+  CONFIG_LIBCURL_OPENSSL=y
+  CONFIG_OPENSSL_OPTIMIZE_SPEED=y
+  CONFIG_LUCI_LANG_en=y
+  CONFIG_LUCI_LANG_zh_Hans=y
+  CONFIG_BUSYBOX_CONFIG_STAT=y
+  CONFIG_BUSYBOX_CONFIG_STTY=y
+  CONFIG_BUSYBOX_CONFIG_TIMEOUT=y
+  CONFIG_BUSYBOX_CONFIG_USLEEP=y
+  CONFIG_BUSYBOX_CONFIG_LSUSB=y
+  CONFIG_PACKAGE_kmod-lib-textsearch=n
+  CONFIG_PACKAGE_kmod-ipt-filter=n
+  CONFIG_PACKAGE_kmod-ipt-tproxy=n
+  CONFIG_PACKAGE_kmod-mii=n
+  CONFIG_PACKAGE_kmod-usb-net=n
+  CONFIG_PACKAGE_kmod-usb-net-cdc-ncm=n
+  CONFIG_PACKAGE_kmod-usb-net-huawei-cdc-ncm=n
+  CONFIG_PACKAGE_kmod-usb-net-qmi-wwan=n
+  CONFIG_PACKAGE_kmod-usb-serial-option=n
+  CONFIG_PACKAGE_kmod-usb-serial-wwan=n
+  CONFIG_PACKAGE_kmod-usb-wdm=n
+  CONFIG_PACKAGE_libimobiledevice=n
+  CONFIG_PACKAGE_libplist=n
+  CONFIG_PACKAGE_libusbmuxd=n
+  CONFIG_PACKAGE_bind-libs=y
+  CONFIG_PACKAGE_libcares=y
+  CONFIG_PACKAGE_libcomerr=n
+  CONFIG_PACKAGE_libexpat=y
+  CONFIG_PACKAGE_libext2fs=n
+  CONFIG_PACKAGE_libmosquitto-ssl=y
+  CONFIG_PACKAGE_libncurses=y
+  CONFIG_PACKAGE_libnetfilter-queue=y
+  CONFIG_PACKAGE_libpcap=n
+  CONFIG_PACKAGE_libreadline=y
+  CONFIG_PACKAGE_librrd1=y
+  CONFIG_PACKAGE_libss=n
+  CONFIG_PACKAGE_libusb-1.0=n
+  CONFIG_PACKAGE_libuuid=n
+  CONFIG_PACKAGE_libuv=y
+  CONFIG_PACKAGE_libxml2=n
+  CONFIG_PACKAGE_terminfo=y
+  CONFIG_LUCI_LANG_en=n
+  CONFIG_LUCI_LANG_zh_Hans=n
+  CONFIG_PACKAGE_luci-i18n-base-zh-cn=n
+  CONFIG_PACKAGE_luci-i18n-firewall-en=n
+  CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=n
+  CONFIG_PACKAGE_luci-i18n-opkg-en=n
+  CONFIG_PACKAGE_luci-i18n-opkg-zh-cn=n
+  CONFIG_PACKAGE_bind-dig=y
+  CONFIG_PACKAGE_mdns-utils=y
+  CONFIG_PACKAGE_mdnsd=y
+  CONFIG_PACKAGE_mdnsresponder=y
+  CONFIG_PACKAGE_rrdtool1=y
+  CONFIG_PACKAGE_e2fsprogs=n
+  CONFIG_PACKAGE_screen=y
+  CONFIG_PACKAGE_lrzsz=y
+  CONFIG_PACKAGE_kmod-usb-serial-ch343=y
+  CONFIG_PACKAGE_kmod-usb-serial=y
+  CONFIG_PACKAGE_libblkid=n
+  CONFIG_PACKAGE_libuuid=n
+  CONFIG_LUCI_LANG_en=y
