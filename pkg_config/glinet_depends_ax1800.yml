@@ -1,0 +1,728 @@
+description:
+- Build image for the GL.iNET AX1800
+- Add the glinet dependencies
+- GL nas utils
+- Add the glinet imagebuilder
+diffconfig: 'CONFIG_BUSYBOX_CUSTOM=y
+
+
+  CONFIG_BATMAN_ADV_BATMAN_V=y
+
+
+  CONFIG_BATMAN_ADV_BLA=y
+
+
+  CONFIG_BATMAN_ADV_DAT=y
+
+
+  CONFIG_BATMAN_ADV_MCAST=y
+
+
+  CONFIG_BUSYBOX_CONFIG_ADDGROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_ADDUSER=y
+
+
+  CONFIG_BUSYBOX_CONFIG_CHPASSWD=y
+
+
+  CONFIG_BUSYBOX_CONFIG_DELGROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_DELUSER=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FEATURE_ADDUSER_TO_GROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FEATURE_DEL_USER_FROM_GROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FIRST_SYSTEM_ID=0
+
+
+  CONFIG_BUSYBOX_CONFIG_LAST_ID=0
+
+
+  CONFIG_BUSYBOX_CONFIG_LAST_SYSTEM_ID=0
+
+
+  CONFIG_GETDNS_ENABLE_STUB_ONLY=y
+
+
+  CONFIG_GNUTLS_ALPN=y
+
+
+  CONFIG_GNUTLS_ANON=y
+
+
+  CONFIG_GNUTLS_DTLS_SRTP=y
+
+
+  CONFIG_GNUTLS_HEARTBEAT=y
+
+
+  CONFIG_GNUTLS_OCSP=y
+
+
+  CONFIG_GNUTLS_PSK=y
+
+
+  CONFIG_IB=y
+
+
+  CONFIG_IB_STANDALONE=y
+
+
+  CONFIG_LIBCURL_COOKIES=y
+
+
+  CONFIG_LIBCURL_FILE=y
+
+
+  CONFIG_LIBCURL_FTP=y
+
+
+  CONFIG_LIBCURL_HTTP=y
+
+
+  CONFIG_LIBCURL_NGHTTP2=y
+
+
+  CONFIG_LIBCURL_NO_SMB="!"
+
+
+  CONFIG_LIBCURL_OPENSSL=y
+
+
+  CONFIG_LIBCURL_PROXY=y
+
+
+  CONFIG_LUCI_LANG_zh_Hans=y
+
+
+  CONFIG_NFS_KERNEL_SERVER_V4=y
+
+
+  CONFIG_NGINX_HTTP_FASTCGI=y
+
+
+  CONFIG_NGINX_HTTP_PROXY=y
+
+
+  CONFIG_NGINX_HTTP_REWRITE=y
+
+
+  CONFIG_NGINX_HTTP_UWSGI=y
+
+
+  CONFIG_NGINX_LUA=y
+
+
+  CONFIG_NGINX_PCRE=y
+
+
+  CONFIG_NGINX_UBUS=y
+
+
+  CONFIG_OPENSSL_ENGINE=y
+
+
+  CONFIG_OPENSSL_OPTIMIZE_SPEED=y
+
+
+  CONFIG_OPENSSL_PREFER_CHACHA_OVER_GCM=y
+
+
+  CONFIG_OPENSSL_WITH_ASM=y
+
+
+  CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+
+
+  CONFIG_OPENSSL_WITH_CMS=y
+
+
+  CONFIG_OPENSSL_WITH_DEPRECATED=y
+
+
+  CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+
+
+  CONFIG_OPENSSL_WITH_PSK=y
+
+
+  CONFIG_OPENSSL_WITH_SRP=y
+
+
+  CONFIG_OPENSSL_WITH_TLS13=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_LZO=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_PF=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
+
+
+  CONFIG_OUI_HTTPD_LOGIN_FAIL_WAIT=600
+
+
+  CONFIG_OUI_HTTPD_MAX_LOGIN_FAIL=10
+
+
+  # CONFIG_PACKAGE_dnsmasq is not set
+
+
+  # CONFIG_PACKAGE_wpad is not set
+
+
+  CONFIG_PCRE_JIT_ENABLED=y
+
+
+  CONFIG_RPCBIND_LIBWRAP=y
+
+
+  CONFIG_RPCBIND_RMTCALLS=y
+
+
+  CONFIG_SAMBA4_SERVER_AD_DC=y
+
+
+  CONFIG_SAMBA4_SERVER_AVAHI=y
+
+
+  CONFIG_SAMBA4_SERVER_NETBIOS=y
+
+
+  CONFIG_SAMBA4_SERVER_VFS=y
+
+
+  CONFIG_SAMBA4_SERVER_VFSX=y
+
+
+  CONFIG_SAMBA4_SERVER_WSDD2=y
+
+
+  # CONFIG_SIGNATURE_CHECK is not set
+
+
+  CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+
+
+  CONFIG_SQLITE3_FTS3=y
+
+
+  CONFIG_SQLITE3_FTS4=y
+
+
+  CONFIG_SQLITE3_FTS5=y
+
+
+  CONFIG_SQLITE3_JSON1=y
+
+
+  CONFIG_SQLITE3_RTREE=y
+
+
+  # CONFIG_NGINX_HEADERS_MORE is not set
+
+
+  # CONFIG_NGINX_HTTP_ACCESS is not set
+
+
+  # CONFIG_NGINX_HTTP_AUTH_BASIC is not set
+
+
+  # CONFIG_NGINX_HTTP_AUTOINDEX is not set
+
+
+  # CONFIG_NGINX_HTTP_BROWSER is not set
+
+
+  # CONFIG_NGINX_HTTP_CACHE is not set
+
+
+  # CONFIG_NGINX_HTTP_CHARSET is not set
+
+
+  # CONFIG_NGINX_HTTP_EMPTY_GIF is not set
+
+
+  # CONFIG_NGINX_HTTP_GEO is not set
+
+
+  # CONFIG_NGINX_HTTP_GZIP is not set
+
+
+  # CONFIG_NGINX_HTTP_LIMIT_CONN is not set
+
+
+  # CONFIG_NGINX_HTTP_LIMIT_REQ is not set
+
+
+  # CONFIG_NGINX_HTTP_MAP is not set
+
+
+  # CONFIG_NGINX_HTTP_MEMCACHED is not set
+
+
+  # CONFIG_NGINX_HTTP_REFERER is not set
+
+
+  # CONFIG_NGINX_HTTP_SCGI is not set
+
+
+  # CONFIG_NGINX_HTTP_SPLIT_CLIENTS is not set
+
+
+  # CONFIG_NGINX_HTTP_SSI is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_HASH is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_IP_HASH is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_KEEPALIVE is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_LEAST_CONN is not set
+
+
+  # CONFIG_NGINX_HTTP_USERID is not set
+
+
+  # CONFIG_NGINX_NAXSI is not set
+
+
+  CONFIG_LUCI_LANG_en=y
+
+  '
+feeds:
+- name: gl_feeds_wlanap
+  revision: 5df1bae20bf4f2bd39168707e6363bcf8bdf5f29
+  uri: https://github.com/gl-inet/gl-feeds.git
+- name: gl_feeds_common
+  revision: 017bd93a03ccde84b3b48030d5048ad09494b2f0
+  uri: https://github.com/gl-inet/gl-feeds.git
+- name: luci
+  revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
+  uri: https://github.com/openwrt/luci.git
+- name: ipq807x
+  path: ../../feeds/ipq807x
+- name: wifi_ax
+  path: ../../feeds/wifi-ax
+image: bin/targets/ipq807x/ipq60xx/openwrt-ipq807x-glinet_ax1800-squashfs-sysupgrade.tar
+packages:
+- acl
+- ath11k-firmware-ipq60xx
+- ath11k-wifi-gl-ax1800
+- attr
+- avahi-dbus-daemon
+- base-files
+- blkid
+- block-mount
+- busybox
+- ca-bundle
+- ca-certificates
+- cgi-io
+- chat
+- comgt
+- comgt-ncm
+- conntrack
+- curl
+- dbus
+- ddns-scripts
+- ddns-scripts-services
+- dhcpdiscover
+- dnscrypt-proxy2
+- dnsmasq-full
+- dosfstools
+- dropbear
+- e2fsprogs
+- ethtool
+- fcgi
+- firewall
+- fstools
+- fwtool
+- getdns
+- getrandom
+- hostapd-common
+- httping
+- i2c-tools
+- ip-full
+- ip6tables
+- ipset
+- iptables
+- iptables-mod-conntrack-extra
+- iptables-mod-extra
+- iptables-mod-filter
+- iptables-mod-ipopt
+- iptables-mod-tproxy
+- iw
+- iwinfo
+- jansson4
+- jshn
+- jsonfilter
+- kernel
+- kmod-arptables
+- kmod-ath
+- kmod-ath11k
+- kmod-ath11k-ahb
+- kmod-ath11k-pci
+- kmod-bonding
+- kmod-br-netfilter
+- kmod-cfg80211
+- kmod-crypto-aead
+- kmod-crypto-arc4
+- kmod-crypto-cbc
+- kmod-crypto-crc32c
+- kmod-crypto-cts
+- kmod-crypto-des
+- kmod-crypto-ecb
+- kmod-crypto-hash
+- kmod-crypto-hmac
+- kmod-crypto-manager
+- kmod-crypto-md5
+- kmod-crypto-null
+- kmod-crypto-pcompress
+- kmod-crypto-sha1
+- kmod-dax
+- kmod-dm
+- kmod-dnsresolver
+- kmod-ebtables
+- kmod-fs-exfat
+- kmod-fs-exportfs
+- kmod-fs-ext4
+- kmod-fs-nfs
+- kmod-fs-nfs-common
+- kmod-fs-nfs-common-rpcsec
+- kmod-fs-nfs-v4
+- kmod-fs-nfsd
+- kmod-fs-ntfs
+- kmod-fs-vfat
+- kmod-fuse
+- kmod-gl-sdk4-hw-info
+- kmod-gl-sdk4-parental-control
+- kmod-gl-sdk4-tertf
+- kmod-gpio-button-hotplug
+- kmod-i2c-algo-bit
+- kmod-i2c-core
+- kmod-i2c-gpio
+- kmod-i2c-gpio-custom
+- kmod-ifb
+- kmod-inet-diag
+- kmod-ip6tables
+- kmod-ipt-conntrack
+- kmod-ipt-conntrack-extra
+- kmod-ipt-core
+- kmod-ipt-extra
+- kmod-ipt-filter
+- kmod-ipt-ipopt
+- kmod-ipt-ipset
+- kmod-ipt-nat
+- kmod-ipt-nat6
+- kmod-ipt-offload
+- kmod-ipt-raw
+- kmod-ipt-tproxy
+- kmod-lib-crc-ccitt
+- kmod-lib-crc16
+- kmod-lib-textsearch
+- kmod-mac80211
+- kmod-mii
+- kmod-mtdoops
+- kmod-nf-conntrack
+- kmod-nf-conntrack-netlink
+- kmod-nf-conntrack6
+- kmod-nf-flow
+- kmod-nf-ipt
+- kmod-nf-ipt6
+- kmod-nf-nat
+- kmod-nf-nat6
+- kmod-nf-reject
+- kmod-nf-reject6
+- kmod-nfnetlink
+- kmod-nls-base
+- kmod-nls-cp437
+- kmod-nls-iso8859-1
+- kmod-nls-utf8
+- kmod-ppp
+- kmod-pppoe
+- kmod-pppox
+- kmod-qca-nss-dp
+- kmod-qca-nss-drv
+- kmod-qca-nss-drv-bridge-mgr
+- kmod-qca-nss-drv-vlan-mgr
+- kmod-qca-nss-drv-wifi-meshmgr
+- kmod-qca-ssdk
+- kmod-qrtr_mproc
+- kmod-sched-core
+- kmod-scsi-core
+- kmod-slhc
+- kmod-tun
+- kmod-udptunnel4
+- kmod-udptunnel6
+- kmod-usb-acm
+- kmod-usb-core
+- kmod-usb-dwc3
+- kmod-usb-dwc3-qcom
+- kmod-usb-ehci
+- kmod-usb-net
+- kmod-usb-net-cdc-ether
+- kmod-usb-net-cdc-ncm
+- kmod-usb-net-huawei-cdc-ncm
+- kmod-usb-net-ipheth
+- kmod-usb-net-qmi-wwan
+- kmod-usb-net-rndis
+- kmod-usb-ohci
+- kmod-usb-phy-ipq807x
+- kmod-usb-serial
+- kmod-usb-serial-option
+- kmod-usb-serial-wwan
+- kmod-usb-storage
+- kmod-usb-storage-uas
+- kmod-usb-uhci
+- kmod-usb-wdm
+- kmod-usb2
+- kmod-usb3
+- kmod-wireguard-backport
+- libacl
+- libarchive
+- libatomic1
+- libattr
+- libavahi-client
+- libavahi-dbus-support
+- libblkid1
+- libblobmsg-json20220515
+- libbpf0
+- libbz2-1.0
+- libc
+- libcap
+- libcomerr0
+- libcurl4
+- libdaemon
+- libdb47
+- libdbus
+- libdevmapper
+- libelf1
+- libev
+- libevent2-7
+- libexif
+- libexpat
+- libext2fs2
+- libffi
+- libffmpeg-audio-dec
+- libflac
+- libgcc1
+- libgcrypt
+- libgdbm
+- libgmp10
+- libgnutls
+- libgpg-error
+- libi2c
+- libid3tag
+- libimobiledevice
+- libip4tc2
+- libip6tc2
+- libipset13
+- libiwinfo-data
+- libiwinfo-lua
+- libiwinfo20210430
+- libjpeg-turbo
+- libjson-c5
+- libjson-script20220515
+- libkeyutils1
+- liblua5.1.5
+- liblucihttp-lua
+- liblucihttp0
+- liblzma
+- liblzo2
+- libminiupnpc
+- libmnl0
+- libnatpmp1
+- libncurses6
+- libnetfilter-conntrack3
+- libnetfilter-cthelper0
+- libnetfilter-cttimeout1
+- libnetfilter-queue1
+- libnettle8
+- libnfnetlink0
+- libnghttp2-14
+- libnl-tiny2022-05-17
+- libogg0
+- libopenldap
+- libopenssl-conf
+- libopenssl1.1
+- libpcre
+- libplist
+- libpopt0
+- libpthread
+- libpython3-3.9
+- libreadline8
+- librt
+- libsasl2
+- libsqlite3-0
+- libss2
+- libstdcpp6
+- libtasn1
+- libtirpc
+- libubox-lua
+- libubox20220515
+- libubus-lua
+- libubus20210809
+- libuci-lua
+- libuci20130104
+- libuclient20201210
+- liburing
+- libusb-1.0-0
+- libusbmuxd
+- libustream-wolfssl20201210
+- libuuid1
+- libvorbis
+- libwolfssl4.8.1.66253b90
+- libwrap
+- libxml2
+- libxtables12
+- libyaml
+- logd
+- lsqlite3
+- lua
+- lua-cjson
+- luabitop
+- luci-app-firewall
+- luci-app-opkg
+- luci-base
+- luci-i18n-base-en
+- luci-i18n-base-zh-cn
+- luci-i18n-firewall-zh-cn
+- luci-i18n-opkg-zh-cn
+- luci-lib-base
+- luci-lib-ip
+- luci-lib-json
+- luci-lib-jsonc
+- luci-lib-nixio
+- luci-mod-admin-full
+- luci-mod-network
+- luci-mod-rpc
+- luci-mod-status
+- luci-mod-system
+- luci-proto-ipv6
+- luci-proto-ppp
+- luci-theme-bootstrap
+- minidlna
+- mqtt
+- mtd
+- mwan3
+- netifd
+- nfs-kernel-server
+- nfs-kernel-server-utils
+- nfs-utils-libs
+- nginx-ssl
+- ntfs-3g
+- ntfs-3g-utils
+- odhcp6c
+- odhcpd-ipv6only
+- openssl-util
+- openvpn-openssl
+- openwrt-keyring
+- opkg
+- ppp
+- ppp-mod-pppoe
+- procd
+- python3
+- python3-asyncio
+- python3-base
+- python3-cgi
+- python3-cgitb
+- python3-codecs
+- python3-cryptodome
+- python3-ctypes
+- python3-dbm
+- python3-decimal
+- python3-distutils
+- python3-email
+- python3-gdbm
+- python3-light
+- python3-logging
+- python3-lzma
+- python3-multiprocessing
+- python3-ncurses
+- python3-openssl
+- python3-pydoc
+- python3-readline
+- python3-sqlite3
+- python3-unittest
+- python3-urllib
+- python3-xml
+- qca-nss-fw-ipq60xx
+- qca-ssdk-shell
+- qca-thermald-10.4
+- relayd
+- resolveip
+- rpcbind
+- rpcd
+- rpcd-mod-file
+- rpcd-mod-iwinfo
+- rpcd-mod-luci
+- rpcd-mod-rrdns
+- rtty-openssl
+- samba4-libs
+- samba4-server
+- samba4-utils
+- smstools3
+- ssmtp
+- stubby
+- sudo
+- swconfig
+- tailscale
+- tailscaled
+- tc-mod-iptables
+- tc-tiny
+- terminfo
+- tor
+- tor-geoip
+- ubi-utils
+- uboot-envtools
+- ubox
+- ubus
+- ubusd
+- uci
+- uclient-fetch
+- unzip
+- uqmi
+- urandom-seed
+- urngd
+- usb-modeswitch
+- usbmuxd
+- usign
+- vsftpd-tls
+- wget-ssl
+- wireguard-tools
+- wireless-regdb
+- wpad-openssl
+- wwan
+- zerotier
+- zlib
+profile: glinet_ax1800
+subtarget: ipq60xx
+target: ipq807x
