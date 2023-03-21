@@ -1,0 +1,1097 @@
+description:
+- Build image for the GL.iNET MT3000
+- Add the glinet dependencies
+- GL nas utils
+- Add the glinet dependencies for the GL.iNET MT3000
+- GL.iNET private profile for mt7981 wifi
+- Add the glinet imagebuilder
+diffconfig: 'CONFIG_ALL_KMODS=y
+
+
+  CONFIG_ALL_NONSHARED=y
+
+
+  CONFIG_BUSYBOX_CUSTOM=y
+
+
+  CONFIG_BUSYBOX_CONFIG_ADDGROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_ADDUSER=y
+
+
+  CONFIG_BUSYBOX_CONFIG_CHPASSWD=y
+
+
+  CONFIG_BUSYBOX_CONFIG_DELGROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_DELUSER=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FEATURE_ADDUSER_TO_GROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FEATURE_DEL_USER_FROM_GROUP=y
+
+
+  CONFIG_BUSYBOX_CONFIG_FIRST_SYSTEM_ID=0
+
+
+  CONFIG_BUSYBOX_CONFIG_LAST_ID=0
+
+
+  CONFIG_BUSYBOX_CONFIG_LAST_SYSTEM_ID=0
+
+
+  CONFIG_CONNINFRA_AUTO_UP=y
+
+
+  CONFIG_CONNINFRA_EMI_SUPPORT=y
+
+
+  # CONFIG_DRIVER_11AX_SUPPORT is not set
+
+
+  CONFIG_GETDNS_ENABLE_STUB_ONLY=y
+
+
+  CONFIG_GNUTLS_ALPN=y
+
+
+  CONFIG_GNUTLS_ANON=y
+
+
+  CONFIG_GNUTLS_DTLS_SRTP=y
+
+
+  CONFIG_GNUTLS_HEARTBEAT=y
+
+
+  CONFIG_GNUTLS_OCSP=y
+
+
+  CONFIG_GNUTLS_PSK=y
+
+
+  CONFIG_IB=y
+
+
+  CONFIG_IB_STANDALONE=y
+
+
+  CONFIG_KERNEL_DEVMEM=y
+
+
+  CONFIG_LIBCURL_COOKIES=y
+
+
+  CONFIG_LIBCURL_FILE=y
+
+
+  CONFIG_LIBCURL_FTP=y
+
+
+  CONFIG_LIBCURL_HTTP=y
+
+
+  CONFIG_LIBCURL_NGHTTP2=y
+
+
+  CONFIG_LIBCURL_NO_SMB="!"
+
+
+  CONFIG_LIBCURL_OPENSSL=y
+
+
+  CONFIG_LIBCURL_PROXY=y
+
+
+  CONFIG_LUCI_LANG_zh_Hans=y
+
+
+  CONFIG_MTK_ACK_CTS_TIMEOUT_SUPPORT=y
+
+
+  CONFIG_MTK_AIR_MONITOR=y
+
+
+  CONFIG_MTK_AMPDU_CONF_SUPPORT=y
+
+
+  CONFIG_MTK_ANTENNA_CONTROL_SUPPORT=y
+
+
+  CONFIG_MTK_APCLI_CERT_SUPPORT=y
+
+
+  CONFIG_MTK_APCLI_SUPPORT=y
+
+
+  CONFIG_MTK_ATE_SUPPORT=y
+
+
+  CONFIG_MTK_BACKGROUND_SCAN_SUPPORT=y
+
+
+  CONFIG_MTK_BAND_STEERING=y
+
+
+  CONFIG_MTK_CAL_BIN_FILE_SUPPORT=y
+
+
+  CONFIG_MTK_CFG_SUPPORT_FALCON_MURU=y
+
+
+  CONFIG_MTK_CFG_SUPPORT_FALCON_PP=y
+
+
+  CONFIG_MTK_CFG_SUPPORT_FALCON_SR=y
+
+
+  CONFIG_MTK_CFG_SUPPORT_FALCON_TXCMD_DBG=y
+
+
+  CONFIG_MTK_CHIP_MT7981=y
+
+
+  CONFIG_MTK_CONNINFRA_APSOC=y
+
+
+  CONFIG_MTK_CONNINFRA_APSOC_MT7981=y
+
+
+  CONFIG_MTK_CON_WPS_SUPPORT=y
+
+
+  CONFIG_MTK_DBDC_MODE=y
+
+
+  CONFIG_MTK_DOT11K_RRM_SUPPORT=y
+
+
+  CONFIG_MTK_DOT11R_FT_SUPPORT=y
+
+
+  CONFIG_MTK_DOT11W_PMF_SUPPORT=y
+
+
+  CONFIG_MTK_DOT11_HE_AX=y
+
+
+  CONFIG_MTK_DOT11_N_SUPPORT=y
+
+
+  CONFIG_MTK_DOT11_VHT_AC=y
+
+
+  CONFIG_MTK_DSCP_PRI_SUPPORT=y
+
+
+  CONFIG_MTK_FAST_NAT_SUPPORT=y
+
+
+  CONFIG_MTK_FIRST_IF_EEPROM_FLASH=y
+
+
+  CONFIG_MTK_FIRST_IF_IPAILNA=y
+
+
+  CONFIG_MTK_FIRST_IF_MT7981=y
+
+
+  # CONFIG_MTK_FIRST_IF_NONE is not set
+
+
+  CONFIG_MTK_GREENAP_SUPPORT=y
+
+
+  CONFIG_MTK_G_BAND_256QAM_SUPPORT=y
+
+
+  CONFIG_MTK_HDR_TRANS_RX_SUPPORT=y
+
+
+  CONFIG_MTK_HDR_TRANS_TX_SUPPORT=y
+
+
+  CONFIG_MTK_ICAP_SUPPORT=y
+
+
+  CONFIG_MTK_IGMP_SNOOP_SUPPORT=y
+
+
+  CONFIG_MTK_INTERWORKING=y
+
+
+  CONFIG_MTK_LED_CONTROL_SUPPORT=y
+
+
+  CONFIG_MTK_MAC_REPEATER_SUPPORT=y
+
+
+  CONFIG_MTK_MAP_R2_6E_SUPPORT=y
+
+
+  CONFIG_MTK_MAP_R2_VER_SUPPORT=y
+
+
+  CONFIG_MTK_MAP_R3_6E_SUPPORT=y
+
+
+  CONFIG_MTK_MAP_R3_VER_SUPPORT=y
+
+
+  CONFIG_MTK_MAP_SUPPORT=y
+
+
+  CONFIG_MTK_MBO_SUPPORT=y
+
+
+  CONFIG_MTK_MBSS_DTIM_SUPPORT=y
+
+
+  CONFIG_MTK_MBSS_SUPPORT=y
+
+
+  CONFIG_MTK_MCAST_RATE_SPECIFIC=y
+
+
+  CONFIG_MTK_MEMORY_SHRINK=y
+
+
+  CONFIG_MTK_MGMT_TXPWR_CTRL=y
+
+
+  CONFIG_MTK_MLME_MULTI_QUEUE_SUPPORT=y
+
+
+  CONFIG_MTK_MT_AP_SUPPORT=m
+
+
+  CONFIG_MTK_MT_DFS_SUPPORT=y
+
+
+  CONFIG_MTK_MT_MAC=y
+
+
+  CONFIG_MTK_MT_WIFI=m
+
+
+  CONFIG_MTK_MT_WIFI_PATH="mt_wifi"
+
+
+  CONFIG_MTK_MULTI_PROFILE_SUPPORT=y
+
+
+  CONFIG_MTK_MUMIMO_SUPPORT=y
+
+
+  CONFIG_MTK_MU_RA_SUPPORT=y
+
+
+  CONFIG_MTK_MWDS=y
+
+
+  CONFIG_MTK_OFFCHANNEL_SCAN_FEATURE=y
+
+
+  CONFIG_MTK_OWE_SUPPORT=y
+
+
+  CONFIG_MTK_QOS_R1_SUPPORT=y
+
+
+  CONFIG_MTK_RA_PHY_RATE_SUPPORT=y
+
+
+  CONFIG_MTK_RED_SUPPORT=y
+
+
+  CONFIG_MTK_RTMP_FLASH_SUPPORT=y
+
+
+  CONFIG_MTK_RT_FIRST_CARD_EEPROM="flash"
+
+
+  CONFIG_MTK_RT_FIRST_IF_RF_OFFSET=0xc0000
+
+
+  CONFIG_MTK_SCS_FW_OFFLOAD=y
+
+
+  CONFIG_MTK_SMART_CARRIER_SENSE_SUPPORT=y
+
+
+  CONFIG_MTK_SNIFFER_RADIOTAP_SUPPORT=y
+
+
+  CONFIG_MTK_SPECTRUM_SUPPORT=y
+
+
+  CONFIG_MTK_TPC_SUPPORT=y
+
+
+  CONFIG_MTK_TXBF_SUPPORT=y
+
+
+  CONFIG_MTK_UAPSD=y
+
+
+  CONFIG_MTK_VLAN_SUPPORT=y
+
+
+  CONFIG_MTK_VOW_SUPPORT=y
+
+
+  CONFIG_MTK_WARP_V2=y
+
+
+  CONFIG_MTK_WDS_SUPPORT=y
+
+
+  CONFIG_MTK_WHNAT_SUPPORT=m
+
+
+  CONFIG_MTK_WIFI_BASIC_FUNC=y
+
+
+  CONFIG_MTK_WIFI_EAP_FEATURE=y
+
+
+  CONFIG_MTK_WIFI_MODE_AP=m
+
+
+  CONFIG_MTK_WIFI_MT_MAC=y
+
+
+  CONFIG_MTK_WIFI_TWT_SUPPORT=y
+
+
+  CONFIG_MTK_WLAN_HOOK=y
+
+
+  CONFIG_MTK_WLAN_SERVICE=y
+
+
+  CONFIG_MTK_WNM_SUPPORT=y
+
+
+  CONFIG_MTK_WPA3_SUPPORT=y
+
+
+  CONFIG_MTK_WSC_INCLUDED=y
+
+
+  CONFIG_MTK_WSC_V2_SUPPORT=y
+
+
+  CONFIG_MTK_ZERO_LOSS_CSA_SUPPORT=y
+
+
+  CONFIG_NFS_KERNEL_SERVER_V4=y
+
+
+  CONFIG_NGINX_HTTP_FASTCGI=y
+
+
+  CONFIG_NGINX_HTTP_PROXY=y
+
+
+  CONFIG_NGINX_HTTP_REWRITE=y
+
+
+  CONFIG_NGINX_HTTP_UWSGI=y
+
+
+  CONFIG_NGINX_LUA=y
+
+
+  CONFIG_NGINX_PCRE=y
+
+
+  CONFIG_NGINX_UBUS=y
+
+
+  CONFIG_OPENSSL_ENGINE=y
+
+
+  CONFIG_OPENSSL_OPTIMIZE_SPEED=y
+
+
+  CONFIG_OPENSSL_WITH_ASM=y
+
+
+  CONFIG_OPENSSL_WITH_CHACHA_POLY1305=y
+
+
+  CONFIG_OPENSSL_WITH_CMS=y
+
+
+  CONFIG_OPENSSL_WITH_DEPRECATED=y
+
+
+  CONFIG_OPENSSL_WITH_ERROR_MESSAGES=y
+
+
+  CONFIG_OPENSSL_WITH_PSK=y
+
+
+  CONFIG_OPENSSL_WITH_SRP=y
+
+
+  CONFIG_OPENSSL_WITH_TLS13=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_DEF_AUTH=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_FRAGMENT=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_LZ4=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_LZO=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_MULTIHOME=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_PF=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_PORT_SHARE=y
+
+
+  CONFIG_OPENVPN_openssl_ENABLE_SMALL=y
+
+
+  CONFIG_OUI_HTTPD_LOGIN_FAIL_WAIT=600
+
+
+  CONFIG_OUI_HTTPD_MAX_LOGIN_FAIL=10
+
+
+  # CONFIG_PACKAGE_dnsmasq is not set
+
+
+  # CONFIG_PACKAGE_kmod-conninfra-mt7981-ko is not set
+
+
+  # CONFIG_PACKAGE_kmod-dm-raid is not set
+
+
+  # CONFIG_PACKAGE_kmod-mapfilter is not set
+
+
+  # CONFIG_PACKAGE_kmod-mt-wifi-mt7981-ko is not set
+
+
+  # CONFIG_PACKAGE_kmod-mt7915 is not set
+
+
+  # CONFIG_PACKAGE_kmod-mt7915e is not set
+
+
+  # CONFIG_PACKAGE_kmod-sound-soc-ac97 is not set
+
+
+  # CONFIG_PACKAGE_kmod-sound-soc-core is not set
+
+
+  # CONFIG_PACKAGE_kmod-sound-soc-mt79xx is not set
+
+
+  # CONFIG_PACKAGE_kmod-sound-soc-spdif is not set
+
+
+  # CONFIG_PACKAGE_kmod-warp-mt7981-ko is not set
+
+
+  CONFIG_RPCBIND_LIBWRAP=y
+
+
+  CONFIG_RPCBIND_RMTCALLS=y
+
+
+  CONFIG_SAMBA4_SERVER_AD_DC=y
+
+
+  CONFIG_SAMBA4_SERVER_AVAHI=y
+
+
+  CONFIG_SAMBA4_SERVER_NETBIOS=y
+
+
+  CONFIG_SAMBA4_SERVER_VFS=y
+
+
+  CONFIG_SAMBA4_SERVER_VFSX=y
+
+
+  CONFIG_SAMBA4_SERVER_WSDD2=y
+
+
+  # CONFIG_SIGNATURE_CHECK is not set
+
+
+  CONFIG_SQLITE3_DYNAMIC_EXTENSIONS=y
+
+
+  CONFIG_SQLITE3_FTS3=y
+
+
+  CONFIG_SQLITE3_FTS4=y
+
+
+  CONFIG_SQLITE3_FTS5=y
+
+
+  CONFIG_SQLITE3_JSON1=y
+
+
+  CONFIG_SQLITE3_RTREE=y
+
+
+  # CONFIG_WARP_ATC_SUPPORT is not set
+
+
+  CONFIG_WARP_CHIPSET="mt7981"
+
+
+  CONFIG_WARP_VERSION=2
+
+
+  CONFIG_WED_HW_RRO_SUPPORT=y
+
+
+  # CONFIG_WIFI_NORMAL_SETTING is not set
+
+
+  CONFIG_WIFI_QUICK_SETTING=y
+
+
+  CONFIG_first_card_EEPROM_size="0xA0000"
+
+
+  CONFIG_first_card_apcli_ifname="apcli;apclix"
+
+
+  CONFIG_first_card_bf_sku_path="/etc/wireless/mediatek/mt7981-sku-bf.dat"
+
+
+  CONFIG_first_card_ext_ifname="ra;rax"
+
+
+  CONFIG_first_card_init_compatible="mtwifi;mtwifi"
+
+
+  CONFIG_first_card_init_script="/lib/wifi/mtwifi.lua;/lib/wifi/mtwifi.lua"
+
+
+  CONFIG_first_card_main_ifname="ra0;rax0"
+
+
+  CONFIG_first_card_mesh_ifname="mesh;meshx"
+
+
+  CONFIG_first_card_name="MT7981"
+
+
+  CONFIG_first_card_nvram_zone="dev1;dev2"
+
+
+  CONFIG_first_card_profile_path="/etc/wireless/mediatek/mt7981.dbdc.b0.dat;/etc/wireless/mediatek/mt7981.dbdc.b1.dat"
+
+
+  CONFIG_first_card_single_sku_path="/etc/wireless/mediatek/mt7981-sku.dat"
+
+
+  CONFIG_first_card_wds_ifname="wds;wdsx"
+
+
+  # CONFIG_second_card is not set
+
+
+  # CONFIG_third_card is not set
+
+
+  # CONFIG_MTK_DEFAULT_5G_PROFILE is not set
+
+
+  # CONFIG_MTK_PCIE_ASPM_DYM_CTRL_SUPPORT is not set
+
+
+  # CONFIG_MTK_PRE_CAL_TRX_SET1_SUPPORT is not set
+
+
+  # CONFIG_MTK_PRE_CAL_TRX_SET2_SUPPORT is not set
+
+
+  # CONFIG_MTK_RLM_CAL_CACHE_SUPPORT is not set
+
+
+  # CONFIG_NGINX_HEADERS_MORE is not set
+
+
+  # CONFIG_NGINX_HTTP_ACCESS is not set
+
+
+  # CONFIG_NGINX_HTTP_AUTH_BASIC is not set
+
+
+  # CONFIG_NGINX_HTTP_AUTOINDEX is not set
+
+
+  # CONFIG_NGINX_HTTP_BROWSER is not set
+
+
+  # CONFIG_NGINX_HTTP_CACHE is not set
+
+
+  # CONFIG_NGINX_HTTP_CHARSET is not set
+
+
+  # CONFIG_NGINX_HTTP_EMPTY_GIF is not set
+
+
+  # CONFIG_NGINX_HTTP_GEO is not set
+
+
+  # CONFIG_NGINX_HTTP_GZIP is not set
+
+
+  # CONFIG_NGINX_HTTP_LIMIT_CONN is not set
+
+
+  # CONFIG_NGINX_HTTP_LIMIT_REQ is not set
+
+
+  # CONFIG_NGINX_HTTP_MAP is not set
+
+
+  # CONFIG_NGINX_HTTP_MEMCACHED is not set
+
+
+  # CONFIG_NGINX_HTTP_REFERER is not set
+
+
+  # CONFIG_NGINX_HTTP_SCGI is not set
+
+
+  # CONFIG_NGINX_HTTP_SPLIT_CLIENTS is not set
+
+
+  # CONFIG_NGINX_HTTP_SSI is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_HASH is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_IP_HASH is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_KEEPALIVE is not set
+
+
+  # CONFIG_NGINX_HTTP_UPSTREAM_LEAST_CONN is not set
+
+
+  # CONFIG_NGINX_HTTP_USERID is not set
+
+
+  # CONFIG_NGINX_NAXSI is not set
+
+
+  CONFIG_LUCI_LANG_en=y
+
+  '
+feeds:
+- name: gl_feed_common
+  revision: ac1ff5fb455c6d304aa435abb1c3eccf4878e28b
+  uri: https://github.com/gl-inet/gl-feeds.git
+- name: gl_feed_21_02
+  revision: 581563a214d313c367d7ffe5a1e9038fc18292ed
+  uri: https://github.com/gl-inet/gl-feeds.git
+- name: gl_feed_mtk
+  revision: 5e48f72b4020fca612bedc480231c9081a00efa4
+  uri: https://github.com/gl-inet/gl-feeds.git
+packages:
+- 8021xd
+- acl
+- attr
+- avahi-dbus-daemon
+- base-files
+- blkid
+- block-mount
+- busybox
+- ca-bundle
+- ca-certificates
+- cgi-io
+- chat
+- comgt
+- comgt-ncm
+- curl
+- dbus
+- ddns-scripts
+- ddns-scripts-services
+- dhcpdiscover
+- dnscrypt-proxy2
+- dnsmasq-full
+- dosfstools
+- dropbear
+- e2fsprogs
+- ethtool
+- fcgi
+- firewall
+- fstools
+- fwdd
+- fwtool
+- getdns
+- getrandom
+- httping
+- ip-full
+- ip6tables
+- ipset
+- iptables
+- iptables-mod-conntrack-extra
+- iptables-mod-extra
+- iptables-mod-filter
+- iptables-mod-ipopt
+- iptables-mod-tproxy
+- iwinfo
+- jansson4
+- jshn
+- jsonfilter
+- kernel
+- kmod-arptables
+- kmod-br-netfilter
+- kmod-conninfra
+- kmod-crypto-aead
+- kmod-crypto-arc4
+- kmod-crypto-cbc
+- kmod-crypto-crc32c
+- kmod-crypto-cts
+- kmod-crypto-des
+- kmod-crypto-ecb
+- kmod-crypto-hash
+- kmod-crypto-hmac
+- kmod-crypto-kpp
+- kmod-crypto-lib-chacha20
+- kmod-crypto-lib-chacha20poly1305
+- kmod-crypto-lib-curve25519
+- kmod-crypto-lib-poly1305
+- kmod-crypto-manager
+- kmod-crypto-md5
+- kmod-crypto-null
+- kmod-crypto-pcompress
+- kmod-crypto-sha1
+- kmod-dax
+- kmod-dm
+- kmod-dnsresolver
+- kmod-fs-exfat
+- kmod-fs-exportfs
+- kmod-fs-ext4
+- kmod-fs-nfs
+- kmod-fs-nfs-common
+- kmod-fs-nfs-common-rpcsec
+- kmod-fs-nfs-v4
+- kmod-fs-nfsd
+- kmod-fs-ntfs
+- kmod-fs-vfat
+- kmod-fuse
+- kmod-gl-sdk4-fan
+- kmod-gl-sdk4-hw-info
+- kmod-gl-sdk4-parental-control
+- kmod-gl-sdk4-tertf
+- kmod-gpio-button-hotplug
+- kmod-hwmon-core
+- kmod-hwmon-pwmfan
+- kmod-ifb
+- kmod-ip6tables
+- kmod-ipt-conntrack
+- kmod-ipt-conntrack-extra
+- kmod-ipt-core
+- kmod-ipt-extra
+- kmod-ipt-filter
+- kmod-ipt-ipopt
+- kmod-ipt-ipset
+- kmod-ipt-nat
+- kmod-ipt-nat6
+- kmod-ipt-offload
+- kmod-ipt-raw
+- kmod-ipt-tproxy
+- kmod-leds-gpio
+- kmod-lib-crc-ccitt
+- kmod-lib-crc16
+- kmod-lib-textsearch
+- kmod-mediatek_hnat
+- kmod-mii
+- kmod-mt_wifi
+- kmod-mtdoops
+- kmod-mtfwd
+- kmod-mtqos
+- kmod-nf-conntrack
+- kmod-nf-conntrack-netlink
+- kmod-nf-conntrack6
+- kmod-nf-flow
+- kmod-nf-ipt
+- kmod-nf-ipt6
+- kmod-nf-nat
+- kmod-nf-nat6
+- kmod-nf-reject
+- kmod-nf-reject6
+- kmod-nfnetlink
+- kmod-nls-base
+- kmod-nls-cp437
+- kmod-nls-iso8859-1
+- kmod-nls-utf8
+- kmod-ppp
+- kmod-pppoe
+- kmod-pppox
+- kmod-sched-core
+- kmod-scsi-core
+- kmod-slhc
+- kmod-tun
+- kmod-udptunnel4
+- kmod-udptunnel6
+- kmod-usb-acm
+- kmod-usb-core
+- kmod-usb-ehci
+- kmod-usb-net
+- kmod-usb-net-cdc-ether
+- kmod-usb-net-cdc-ncm
+- kmod-usb-net-huawei-cdc-ncm
+- kmod-usb-net-ipheth
+- kmod-usb-net-qmi-wwan
+- kmod-usb-net-rndis
+- kmod-usb-ohci
+- kmod-usb-serial
+- kmod-usb-serial-option
+- kmod-usb-serial-wwan
+- kmod-usb-storage
+- kmod-usb-storage-uas
+- kmod-usb-uhci
+- kmod-usb-wdm
+- kmod-usb2
+- kmod-warp
+- kmod-wireguard
+- libacl
+- libarchive
+- libatomic1
+- libattr
+- libavahi-client
+- libavahi-dbus-support
+- libblkid1
+- libblobmsg-json20210516
+- libbpf0
+- libbz2-1.0
+- libc
+- libcap
+- libcomerr0
+- libcurl4
+- libdaemon
+- libdb47
+- libdbus
+- libdevmapper
+- libelf1
+- libev
+- libevent2-7
+- libexif
+- libexpat
+- libext2fs2
+- libffi
+- libffmpeg-audio-dec
+- libflac
+- libgcc1
+- libgcrypt
+- libgdbm
+- libgmp10
+- libgnutls
+- libgpg-error
+- libid3tag
+- libimobiledevice
+- libip4tc2
+- libip6tc2
+- libipset13
+- libiwinfo-data
+- libiwinfo-lua
+- libiwinfo20210430
+- libjpeg-turbo
+- libjson-c5
+- libjson-script20210516
+- libkeyutils1
+- liblua5.1.5
+- liblucihttp-lua
+- liblucihttp0
+- liblzma
+- liblzo2
+- libminiupnpc
+- libmnl0
+- libnatpmp1
+- libncurses6
+- libnetfilter-conntrack3
+- libnettle8
+- libnfnetlink0
+- libnghttp2-14
+- libnl-tiny1
+- libogg0
+- libopenldap
+- libopenssl-conf
+- libopenssl1.1
+- libpcre
+- libplist
+- libpopt0
+- libpthread
+- libpython3-3.9
+- libreadline8
+- librt
+- libsasl2
+- libsqlite3-0
+- libss2
+- libstdcpp6
+- libtasn1
+- libtirpc
+- libubox-lua
+- libubox20210516
+- libubus-lua
+- libubus20210630
+- libuci-lua
+- libuci20130104
+- libuclient20201210
+- liburing
+- libusb-1.0-0
+- libusbmuxd
+- libustream-wolfssl20201210
+- libuuid1
+- libvorbis
+- libwolfssl5.2.0.99a5b54a
+- libwrap
+- libxml2
+- libxtables12
+- libyaml
+- logd
+- lsqlite3
+- lua
+- lua-cjson
+- luabitop
+- luci
+- luci-app-firewall
+- luci-app-opkg
+- luci-base
+- luci-i18n-base-en
+- luci-i18n-base-zh-cn
+- luci-i18n-firewall-zh-cn
+- luci-i18n-opkg-zh-cn
+- luci-lib-base
+- luci-lib-ip
+- luci-lib-json
+- luci-lib-jsonc
+- luci-lib-nixio
+- luci-mod-admin-full
+- luci-mod-network
+- luci-mod-rpc
+- luci-mod-status
+- luci-mod-system
+- luci-proto-ipv6
+- luci-proto-ppp
+- luci-theme-bootstrap
+- mii_mgr
+- minidlna
+- mqtt
+- mtd
+- mtkhnat_util
+- mwan3
+- netifd
+- nfs-kernel-server
+- nfs-kernel-server-utils
+- nfs-utils-libs
+- nginx-ssl
+- ntfs-3g
+- ntfs-3g-utils
+- odhcp6c
+- odhcpd-ipv6only
+- openssl-util
+- openvpn-openssl
+- openwrt-keyring
+- opkg
+- ppp
+- ppp-mod-pppoe
+- procd
+- python3
+- python3-asyncio
+- python3-base
+- python3-cgi
+- python3-cgitb
+- python3-codecs
+- python3-cryptodome
+- python3-ctypes
+- python3-dbm
+- python3-decimal
+- python3-distutils
+- python3-email
+- python3-gdbm
+- python3-light
+- python3-logging
+- python3-lzma
+- python3-multiprocessing
+- python3-ncurses
+- python3-openssl
+- python3-pydoc
+- python3-readline
+- python3-sqlite3
+- python3-unittest
+- python3-urllib
+- python3-xml
+- regs
+- relayd
+- resolveip
+- rpcbind
+- rpcd
+- rpcd-mod-file
+- rpcd-mod-iwinfo
+- rpcd-mod-luci
+- rpcd-mod-rrdns
+- rtty-openssl
+- samba4-libs
+- samba4-server
+- samba4-utils
+- smstools3
+- stubby
+- sudo
+- swconfig
+- tailscale
+- tailscaled
+- tc-mod-iptables
+- tc-tiny
+- terminfo
+- tor
+- tor-geoip
+- ubi-utils
+- uboot-envtools
+- ubox
+- ubus
+- ubusd
+- uci
+- uclient-fetch
+- uhttpd
+- uhttpd-mod-ubus
+- unzip
+- uqmi
+- urandom-seed
+- urngd
+- usb-modeswitch
+- usbmuxd
+- usign
+- vsftpd-tls
+- wifi-profile
+- wireguard-tools
+- wireless-regdb
+- wireless-tools
+- wwan
+- zerotier
+- zlib
+profile: glinet_gl-mt3000
+subtarget: mt7981
+target: mediatek
