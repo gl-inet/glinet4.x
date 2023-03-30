@@ -322,16 +322,16 @@ feeds:
 - name: gl_feeds_wlanap
   revision: 5df1bae20bf4f2bd39168707e6363bcf8bdf5f29
   uri: https://github.com/gl-inet/gl-feeds.git
-- name: gl_feeds_common
-  revision: 017bd93a03ccde84b3b48030d5048ad09494b2f0
-  uri: https://github.com/gl-inet/gl-feeds.git
-- name: luci
-  revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
-  uri: https://github.com/openwrt/luci.git
 - name: ipq807x
   path: ../../feeds/ipq807x
 - name: wifi_ax
   path: ../../feeds/wifi-ax
+- name: gl_feeds_common
+  revision: 341ee97aaa761c0fc93a0d28fc8634d42f7f7c4c
+  uri: https://github.com/gl-inet/gl-feeds.git
+- name: luci
+  revision: 1c3b32dc1bec15e3076a447762b1c4f94eb75fb7
+  uri: https://github.com/openwrt/luci.git
 image: bin/targets/ipq807x/ipq60xx/openwrt-ipq807x-glinet_ax1800-squashfs-sysupgrade.tar
 packages:
 - acl

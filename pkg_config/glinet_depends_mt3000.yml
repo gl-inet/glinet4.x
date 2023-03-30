@@ -709,13 +709,13 @@ diffconfig: 'CONFIG_ALL_KMODS=y
   '
 feeds:
 - name: gl_feed_common
-  revision: ac1ff5fb455c6d304aa435abb1c3eccf4878e28b
+  revision: 341ee97aaa761c0fc93a0d28fc8634d42f7f7c4c
   uri: https://github.com/gl-inet/gl-feeds.git
 - name: gl_feed_21_02
   revision: 581563a214d313c367d7ffe5a1e9038fc18292ed
   uri: https://github.com/gl-inet/gl-feeds.git
 - name: gl_feed_mtk
-  revision: 5e48f72b4020fca612bedc480231c9081a00efa4
+  revision: a7d4522e2ca45ccf348d6325f0baab0e7880c6ac
   uri: https://github.com/gl-inet/gl-feeds.git
 packages:
 - 8021xd
@@ -732,6 +732,7 @@ packages:
 - chat
 - comgt
 - comgt-ncm
+- conntrack
 - curl
 - dbus
 - ddns-scripts
@@ -932,6 +933,9 @@ packages:
 - libnatpmp1
 - libncurses6
 - libnetfilter-conntrack3
+- libnetfilter-cthelper0
+- libnetfilter-cttimeout1
+- libnetfilter-queue1
 - libnettle8
 - libnfnetlink0
 - libnghttp2-14
@@ -978,8 +982,10 @@ packages:
 - luabitop
 - luci
 - luci-app-firewall
+- luci-app-mtkwifi
 - luci-app-opkg
 - luci-base
+- luci-compat
 - luci-i18n-base-en
 - luci-i18n-base-zh-cn
 - luci-i18n-firewall-zh-cn

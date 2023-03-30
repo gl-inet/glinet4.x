@@ -335,8 +335,8 @@ diffconfig: 'CONFIG_ALL_KMODS=y
 
   '
 feeds:
-- name: gl_feeds_commmon
-  revision: 16d4e89ddfc13ab8551959c3c17dfe7699c709bf
+- name: gl_feeds_common
+  revision: c6eabb97a774dc4305fd624c833464cfb6ffef7e
   uri: https://github.com/gl-inet/gl-feeds.git
 - name: gl_feeds_21_02
   revision: 581563a214d313c367d7ffe5a1e9038fc18292ed
